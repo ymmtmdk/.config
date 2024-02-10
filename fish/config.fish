@@ -13,6 +13,6 @@ set -gx CFLAGS "$CFLAGS -I/usr/local/include"
 set -gx CXXFLAGS "$CXXFLAGS -I/usr/local/include"
 
 if status is-interactive
-  source ~/dotfiles/i_config.fish
+  source ~/.config/fish/i_config.fish
 end
 
