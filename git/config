@@ -1,0 +1,22 @@
+[alias]
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  di = diff
+  lg = log -p
+
+[push]
+  default = simple
+
+[user]
+  name = ymmtmdk
+  email = ymmtmdk@gmail.com
+
+[core]
+  excludesfile = ~/.config/git/.gitignore_global
+
+[credential]
+  helper = osxkeychain
+	helper = 
+	helper = /usr/local/share/gcm-core/git-credential-manager
