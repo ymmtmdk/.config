@@ -32,7 +32,7 @@ function fish_user_key_bindings
 end
 
 function current_info
-  if test -z (commandline)
+  if test -z (commandline) 2> /dev/null
     ll
     if test (git rev-parse --is-inside-work-tree 2> /dev/null || echo false) = true
       git status -sb

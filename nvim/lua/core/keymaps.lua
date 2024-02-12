@@ -6,6 +6,7 @@ local term_opts = { silent = true }
 --local keymap = vim.keymap
 local keymap = vim.api.nvim_set_keymap
 
+vim.g.mapleader = ';'
 -- Modes
 --   normal_mode = 'n',
 --   insert_mode = 'i',
