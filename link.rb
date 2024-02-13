@@ -1,7 +1,7 @@
 require 'pathname'
 require 'fileutils'
 
-SRC_HOME = Pathname(ENV['HOME'] + '/dotfiles')
+SRC_HOME = Pathname(ENV['HOME'] + '/.config')
 DST_HOME = Pathname(ENV['HOME'])
 
 def link(src, dst = '', type = :sym)
@@ -25,17 +25,19 @@ def link(src, dst = '', type = :sym)
 end
 
 if __FILE__ == $0
-  link 'config.fish', '~/.config/fish/'
-  link 'starship.toml', '~/.config/'
-  link 'peco.config.json', '~/.config/peco/config.json'
+  # link 'config.fish', '~/.config/fish/'
+  # link 'starship.toml', '~/.config/'
+  # link 'peco.config.json', '~/.config/peco/config.json'
   # link 'fish/fishfile', '~/.config/fish/'
-  link '.gemrc'
-  link '.gitconfig', '~/.config/git/config'
-  link 'nvim/init.lua', '~/.config/nvim/init.lua'
-  link 'nvim/lua', '~/.config/nvim/'
+  # link '.gemrc'
+  # link '.gitconfig', '~/.config/git/config'
+  # link 'nvim/init.lua', '~/.config/nvim/init.lua'
+  # link 'nvim/lua', '~/.config/nvim/'
   if RUBY_PLATFORM =~ /darwin\d/
-    link 'karabiner.json', '~/.config/karabiner/'
-    link 'fish/fishd.705681ae6dbb', '~/.config/fish/', :hard
+    # link 'karabiner.json', '~/.config/karabiner/'
+    # link 'fish/fishd.705681ae6dbb', '~/.config/fish/', :hard
+    link 'Code/settings.json', '~/Library/Application Support/Code/User/'
+    link 'Code/keybindings.json', '~/Library/Application Support/Code/User/'
   end
 end
 
