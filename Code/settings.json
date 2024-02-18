@@ -1,6 +1,6 @@
 {
   "apc.electron": {
-    "opacity": 0.96,
+    "opacity": 0.95,
     "transparent": true
   },
   "workbench.colorTheme": "Tokyo Night",
@@ -15,5 +15,6 @@
   "apc.imports": [
     "file:///Users/ymmtmdk/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
   ],
-  "update.mode": "manual"
+  "update.mode": "manual",
+  "editor.cursorBlinking": "solid"
 }
