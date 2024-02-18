@@ -4,9 +4,9 @@ SETUVAR Z_DATA:/Users/ymmtmdk/\x2ez
 SETUVAR __fish_initialized:3400
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
 SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_files:\x7e/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_list\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e\x7e/\x2econfig/fish/functions/nvm\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e\x7e/\x2econfig/fish/completions/nvm\x2efish
-SETUVAR _fisher_plugins:jorgebucaran/fisher\x1eymmtmdk/autocdz\x1eymmtmdk/peco_select_history_with_c\x1ejorgebucaran/nvm\x2efish\x1e/Users/ymmtmdk/code/setuper/fisher\x2esh
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1eymmtmdk/peco_select_history_with_c\x1ejorgebucaran/nvm\x2efish\x1e/Users/ymmtmdk/code/setuper/fisher\x2esh\x1eymmtmdk/autocdz
 SETUVAR _fisher_upgraded_to_4_4:\x1d
-SETUVAR _fisher_ymmtmdk_2F_autocdz_files:\x7e/\x2econfig/fish/functions/autocdz\x2efish\x1e\x7e/\x2econfig/fish/functions/Rakefile\x1e\x7e/\x2econfig/fish/functions/zadd\x2ecr\x1e\x7e/\x2econfig/fish/functions/zadd\x2erb\x1e\x7e/\x2econfig/fish/functions/zmove\x2ecr\x1e\x7e/\x2econfig/fish/functions/zmove\x2erb\x1e\x7e/\x2econfig/fish/conf\x2ed/z\x2efish
+SETUVAR _fisher_ymmtmdk_2F_autocdz_files:\x7e/\x2econfig/fish/conf\x2ed/autocdz\x2efish
 SETUVAR _fisher_ymmtmdk_2F_peco__select__history__with__c_files:\x7e/\x2econfig/fish/functions/peco_select_history_with_c\x2efish
 SETUVAR fish_color_autosuggestion:brblack
 SETUVAR fish_color_cancel:\x2dr
