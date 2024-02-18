@@ -20,10 +20,6 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "shift+cmd+t",
-    "command": "workbench.action.openChat.copilot"
-  },
-  {
     "key": "shift+cmd+c",
     "command": "workbench.panel.chatSidebar"
   }
