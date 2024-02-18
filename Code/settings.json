@@ -1,14 +1,19 @@
 {
-    "workbench.colorTheme": "Transparent Color Theme",
-    "extensions.experimental.affinity": {
-        "asvetliakov.vscode-neovim": 1
-    },
-    "vim.enableNeovim": true,
-    "vim.neovimUseConfigFile": true,
-    "vim.neovimConfigPath": "~/.config/vscnvim/init.lua",
-    "editor.wordWrap": "on",
-    "animations.Install-Method": "Apc Customize UI++",
-    "apc.imports": [
-        "file:///Users/ymmtmdk/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
-    ]
+  "apc.electron": {
+    "opacity": 0.96,
+    "transparent": true
+  },
+  "workbench.colorTheme": "Tokyo Night",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "vim.enableNeovim": true,
+  "vim.neovimUseConfigFile": true,
+  "vim.neovimConfigPath": "~/.config/vscnvim/init.lua",
+  "editor.wordWrap": "on",
+  "animations.Install-Method": "Apc Customize UI++",
+  "apc.imports": [
+    "file:///Users/ymmtmdk/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
+  ],
+  "update.mode": "manual"
 }
