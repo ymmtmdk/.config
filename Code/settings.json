@@ -1,6 +1,6 @@
 {
   "apc.electron": {
-    "opacity": 0.95,
+    "opacity": 0.90,
     "transparent": true
   },
   "workbench.colorTheme": "Tokyo Night",
