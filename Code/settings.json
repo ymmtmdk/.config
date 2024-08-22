@@ -16,5 +16,6 @@
     "file:///Users/ymmtmdk/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
   ],
   "update.mode": "manual",
-  "editor.cursorBlinking": "solid"
+  "editor.cursorBlinking": "solid",
+  "files.autoSave": "afterDelay"
 }
