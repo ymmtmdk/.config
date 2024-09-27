@@ -32,3 +32,6 @@ keymap("i", "<C-b>", "<Left>", opts)
 keymap("i", "<C-f>", "<Right>", opts)
 keymap("i", "<C-n>", "<Down>", opts)
 keymap("i", "<C-p>", "<Up>", opts)
+
+-- Do not yank with x
+ap("n", "x", '"_x', opts)
