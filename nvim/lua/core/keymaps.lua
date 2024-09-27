@@ -34,4 +34,4 @@ keymap("i", "<C-n>", "<Down>", opts)
 keymap("i", "<C-p>", "<Up>", opts)
 
 -- Do not yank with x
-ap("n", "x", '"_x', opts)
+keymap("n", "x", '"_x', opts)
