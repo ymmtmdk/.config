@@ -2,12 +2,12 @@ set -x TERM xterm-256color
 set -x EDITOR (which nvim)
 set -x SHELL (which fish)
 
+starship init fish | source
+
 source ~/.config/fish/aliases.fish
 # source ~/.config/fish/each_arch.fish
 
-starship init fish | source
-
-source /Users/ymmtmdk/.local/share/nvim/lazy/tokyonight.nvim/extras/fish/tokyonight_moon.fish
+source ~/.local/share/nvim/lazy/tokyonight.nvim/extras/fish/tokyonight_moon.fish
 
 if set --query nvm_default_version && set --query nvm_current_version
   _nvm_version_deactivate $nvm_current_version
