@@ -1,5 +1,5 @@
 -- [[ Setting options ]]
-vim.cmd("language en_US")
+vim.cmd("language C")
 -- vim.cmd("autocmd!")
 vim.scriptencoding = "utf-8"
 
@@ -16,7 +16,7 @@ vim.o.hlsearch = true
 vim.wo.number = true
 
 -- Enable mouse mode
-vim.o.mouse = 'a'
+vim.o.mouse = ''
 
 -- Sync clipboard between OS and Neovim.
 --  Remove this option if you want your OS clipboard to remain independent.
