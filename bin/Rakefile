@@ -1,0 +1,47 @@
+targets = ["fish_history", "zadd", "zmove"]
+
+task :default => targets
+task :clean do
+  sh "rm #{targets.join(" ")}"
+end
+
+file "fish_history" => "fish_history.c" do
+  sh "gcc -O3 -Wall -o fish_history fish_history.c"
+end
+
+file "zadd" => "zadd.cr" do
+  sh "crystal build --release zadd.cr"
+end
+
+file "zmove" => "zmove.cr" do
+  sh "crystal build --release zmove.cr"
+end
+
+task :debug do
+  sh "crystal build --debug zmove.cr"
+  sh "crystal build --debug zadd.cr"
+end
+
+task :go do
+  sh 'go build -ldflags="-s -w" -trimpath zadd.go'
+  sh 'go build -ldflags="-s -w" -trimpath zmove.go'
+end
+
+task :go_lin do
+  sh 'GOOS=linux GOARCH=amd64 go build -ldflags="-s -w" -trimpath zadd.go'
+  sh 'GOOS=linux GOARCH=amd64 go build -ldflags="-s -w" -trimpath zmove.go'
+end
+
+task :bench do
+  sh "time ./fish_history a | wc"
+end
+
+task :diff do
+  sh "./fish_history a > hnew"
+  sh "~/mybin/fish_history a > hold"
+  sh "diff -u hold hnew"
+end
+
+task :prof do
+  sh "iprofiler -timeprofiler ./fish_history a"
+end
