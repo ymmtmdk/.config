@@ -3,7 +3,7 @@
   ci = commit
   br = branch
   co = checkout
-  di = diff -u
+  di = diff
   lg = log -p
 
 [push]
@@ -17,12 +17,9 @@
   excludesfile = ~/.config/git/.gitignore_global
 
 [credential]
-  helper = osxkeychain
-	helper = git-credential-manager
-
+	helper = /usr/local/share/gcm-core/git-credential-manager
 [credential "https://dev.azure.com"]
 	useHttpPath = true
-
 [pull]
 	rebase = false
 
