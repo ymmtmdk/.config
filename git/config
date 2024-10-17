@@ -3,7 +3,7 @@
   ci = commit
   br = branch
   co = checkout
-  di = diff
+  di = diff -u
   lg = log -p
 
 [push]
@@ -18,9 +18,11 @@
 
 [credential]
   helper = osxkeychain
-	helper = 
-	helper = /usr/local/share/gcm-core/git-credential-manager
+	helper = git-credential-manager
+
 [credential "https://dev.azure.com"]
 	useHttpPath = true
+
 [pull]
 	rebase = false
+
