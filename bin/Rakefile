@@ -23,8 +23,9 @@ task :debug do
 end
 
 task :go do
-  sh 'go build -ldflags="-s -w" -trimpath zadd.go'
-  sh 'go build -ldflags="-s -w" -trimpath zmove.go'
+  p goos = `uname`.chomp.downcase
+  sh "GOOS=#{goos} GOARCH=amd64 go build -ldflags='-s -w' -trimpath zadd.go"
+  sh "GOOS=#{goos} GOARCH=amd64 go build -ldflags='-s -w' -trimpath zmove.go"
 end
 
 task :go_lin do
