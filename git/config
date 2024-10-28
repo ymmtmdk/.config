@@ -18,7 +18,8 @@
 
 [credential]
   # helper = /usr/local/share/gcm-core/git-credential-manager
-  helper = /mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager.exe
+  # helper = /mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager.exe
+  helper = /Users/ymmtmdk/bin/credential-helper
 
 [credential "https://dev.azure.com"]
 	useHttpPath = true
