@@ -2,6 +2,13 @@ set -x TERM xterm-256color
 set -x EDITOR (which nvim)
 set -x SHELL (which fish)
 
+if test (uname) = Darwin
+  set -x STARSHIP_CONFIG ~/.config/starship-macos.toml
+end
+if test (uname) = Linux
+  set -x STARSHIP_CONFIG ~/.config/starship-linux.toml
+end
+
 starship init fish | source
 
 source ~/.config/fish/aliases.fish

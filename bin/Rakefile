@@ -32,6 +32,11 @@ task :go_lin do
   sh 'GOOS=linux GOARCH=amd64 go build -ldflags="-s -w" -trimpath zmove.go'
 end
 
+task :go_win do
+  sh 'GOOS=windows GOARCH=amd64 go build -ldflags="-s -w" -trimpath zadd.go'
+  sh 'GOOS=windows GOARCH=amd64 go build -ldflags="-s -w" -trimpath zmove.go'
+end
+
 task :bench do
   sh "time ./fish_history a | wc"
 end
