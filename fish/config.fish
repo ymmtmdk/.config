@@ -5,7 +5,7 @@ set -gx HOMEBREW_REPOSITORY "/usr/local/Homebrew";
 set --local os (command uname -s | string lower)
 
 ! set -q PATH; and set PATH ''; 
-set -gx PATH "/usr/local/bin" "/usr/local/sbin" "$HOME/bin" "$HOME/.config/bin/$os" $PATH;
+set -gx PATH "/usr/local/bin" "/usr/local/sbin" "$HOME/bin" "$HOME/.config/bin" "$HOME/.config/bin/$os" $PATH;
 ! set -q MANPATH; and set MANPATH '';
 set -gx MANPATH "/usr/local/share/man" $MANPATH;
 ! set -q INFOPATH; and set INFOPATH '';
