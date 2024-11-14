@@ -42,12 +42,6 @@ task :bench do
   sh "time ./fish_history a | wc"
 end
 
-task :diff do
-  sh "./fish_history a > hnew"
-  sh "~/mybin/fish_history a > hold"
-  sh "diff -u hold hnew"
-end
-
 task :prof do
   sh "iprofiler -timeprofiler ./fish_history a"
 end

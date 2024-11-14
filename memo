@@ -1,0 +1,8 @@
+# using vim instead of nano
+sudo update-alternatives --set editor /usr/bin/vim.basic
+
+# visudo 
+ymmtmdk ALL=NOPASSWD: ALL
+
+# ln
+cd /; sudo ln -s home/ Users
