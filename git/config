@@ -25,5 +25,5 @@
 	useHttpPath = true
 
 [pull]
-	rebase = false
+	rebase = true
 
