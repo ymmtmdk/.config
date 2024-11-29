@@ -11,6 +11,13 @@ end
 alias ll='ls -lAh'
 alias df='df -m'
 
+if test (uname) = Darwin
+  #
+end
+if test (uname) = Linux
+  alias open='wsl-open'
+end
+
 # alias bi="bundle install"
 # alias bu='bundle update'
 # alias be='bundle exec'
