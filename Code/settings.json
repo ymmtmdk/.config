@@ -17,5 +17,14 @@
   ],
   "update.mode": "manual",
   "editor.cursorBlinking": "solid",
-  "files.autoSave": "afterDelay"
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "roo-cline.allowedCommands": [
+    "npm test",
+    "npm install",
+    "tsc",
+    "git log",
+    "git diff",
+    "git show"
+  ]
 }
