@@ -20,11 +20,11 @@
   "files.autoSave": "afterDelay",
   "terminal.integrated.defaultProfile.osx": "fish",
   "roo-cline.allowedCommands": [
-    "npm test",
-    "npm install",
-    "tsc",
     "git log",
     "git diff",
-    "git show"
-  ]
+    "git show",
+    "mkdir",
+    "make test"
+  ],
+  "python.createEnvironment.trigger": "off"
 }
