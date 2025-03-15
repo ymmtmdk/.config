@@ -17,7 +17,8 @@ set -gx CXXFLAGS "$CXXFLAGS -I/usr/local/include"
 set -gx JAVA_HOME (/usr/libexec/java_home)
 
 if status is-interactive
-  if not set -q VSCODE_INJECTION
+  # if not set -q VSCODE_INJECTION
     source ~/.config/fish/i_config.fish
-  end
+  # end
 end
+

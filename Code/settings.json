@@ -26,5 +26,6 @@
     "mkdir",
     "make test"
   ],
-  "python.createEnvironment.trigger": "off"
+  "python.createEnvironment.trigger": "off",
+  "explorer.confirmDragAndDrop": false
 }
