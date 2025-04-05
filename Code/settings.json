@@ -24,8 +24,22 @@
     "git diff",
     "git show",
     "mkdir",
-    "make test"
+    "make test",
+    "examples/process_manager/check_rogue",
+    "git status",
+    "git add",
+    "git commit",
+    "ROGUE_LOG_LEVEL=DEBUG make test",
+    "touch",
+    "pytest",
+    "rm",
+    "mv",
+    "git",
+    "chmod",
+    "python3",
+    "*"
   ],
   "python.createEnvironment.trigger": "off",
-  "explorer.confirmDragAndDrop": false
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false
 }
