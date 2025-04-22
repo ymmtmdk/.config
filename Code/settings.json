@@ -41,5 +41,6 @@
   ],
   "python.createEnvironment.trigger": "off",
   "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "workbench.secondarySideBar.showLabels": false
 }

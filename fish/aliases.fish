@@ -1,6 +1,8 @@
 alias e='nvim'
 alias r='ruby'
 alias py='python3'
+alias python='python3'
+alias pip='pip3'
 
 if which hub > /dev/null
   alias g='hub'
