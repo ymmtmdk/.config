@@ -42,5 +42,6 @@
   "python.createEnvironment.trigger": "off",
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-  "workbench.secondarySideBar.showLabels": false
+  "workbench.secondarySideBar.showLabels": false,
+  "chat.agent.enabled": true
 }
