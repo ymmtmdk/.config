@@ -6,7 +6,7 @@ echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.bashrc
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 sudo apt-get install build-essential
-brew install gcc starship ruby python neovim fish peco
+brew install gcc starship ruby neovim fish peco mise
 # npm install -g wsl-open
 
 # $ sudo vim /etc/inputrc

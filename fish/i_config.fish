@@ -16,10 +16,10 @@ source ~/.config/fish/aliases.fish
 
 source ~/.local/share/nvim/lazy/tokyonight.nvim/extras/fish/tokyonight_moon.fish
 
-if set --query nvm_default_version && set --query nvm_current_version
-  _nvm_version_deactivate $nvm_current_version
-  nvm use --silent $nvm_default_version
-end
+# if set --query nvm_default_version && set --query nvm_current_version
+  # _nvm_version_deactivate $nvm_current_version
+  # nvm use --silent $nvm_default_version
+# end
 
 function fish_user_key_bindings
   # C-^
