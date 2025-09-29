@@ -43,5 +43,6 @@
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "workbench.secondarySideBar.showLabels": false,
-  "chat.agent.enabled": true
+  "chat.agent.enabled": true,
+  "terminal.integrated.defaultProfile.linux": "fish"
 }
