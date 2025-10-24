@@ -1,2 +1,10 @@
-karabiner/automatic_backups/
-go
+# Ignore All
+*
+!*/
+
+# Allowlist
+!.git/*
+!.gitignore
+!fish/**
+!nvim/**
+!code/**

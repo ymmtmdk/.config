@@ -30,9 +30,11 @@ function fish_user_key_bindings
   # C-^
   bind \x1e 'cd ..; and commandline -f repaint'
   # C-,
-  bind -k f1 prevd-or-backward-word
+  bind ctrl-comma prevd-or-backward-word
+  bind f1 prevd-or-backward-word
   # C-.
-  bind -k f2 nextd-or-forward-word
+  bind ctrl-. nextd-or-forward-word
+  bind f2 nextd-or-forward-word
 
   bind \cd delete-char
   bind \cs forward-kill-word
