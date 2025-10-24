@@ -14,7 +14,7 @@ set -gx INFOPATH "/usr/local/share/info" $INFOPATH;
 set -gx CFLAGS "$CFLAGS -I/usr/local/include"
 set -gx CXXFLAGS "$CXXFLAGS -I/usr/local/include"
 
-set -gx JAVA_HOME (/usr/libexec/java_home)
+# set -gx JAVA_HOME (/usr/libexec/java_home)
 
 if status is-interactive
   # if not set -q VSCODE_INJECTION
