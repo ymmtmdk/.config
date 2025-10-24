@@ -17,12 +17,12 @@ vim.g.mapleader = ';'
 --   command_mode = 'c',
 
 if vim.fn.has('mac') > 0 then
-  keymap("n", "<F13>", "1gt", opts)
-  keymap("n", "<F14>", "2gt", opts)
-  keymap("n", "<F15>", "3gt", opts)
-  keymap("n", "<F16>", "4gt", opts)
-  keymap("n", "<F17>", "5gt", opts)
-  keymap("n", "<F18>", "6gt", opts)
+  keymap("n", "<C-1>", "1gt", opts)
+  keymap("n", "<C-2>", "2gt", opts)
+  keymap("n", "<C-3>", "3gt", opts)
+  keymap("n", "<C-4>", "4gt", opts)
+  keymap("n", "<C-5>", "5gt", opts)
+  keymap("n", "<C-6>", "6gt", opts)
 else
   keymap("n", "<F3>", "1gt", opts)
   keymap("n", "<F4>", "2gt", opts)

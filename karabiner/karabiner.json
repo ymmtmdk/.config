@@ -23,6 +23,7 @@
                     },
                     {
                         "description": "ctrl-3 as f15",
+                        "enabled": false,
                         "manipulators": [
                             {
                                 "from": {
