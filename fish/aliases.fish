@@ -1,29 +1,19 @@
 alias e='nvim'
+alias g='git'
 alias r='ruby'
 alias py='python3'
-alias python='python3'
-alias pip='pip3'
-
-if which hub > /dev/null
-  alias g='hub'
-else
-  alias g='git'
-end
 
 alias ll='ls -lAh'
 alias df='df -m'
 
 if test (uname) = Darwin
-  #
 end
+
 if test (uname) = Linux
   alias open='wsl-open'
+  alias pbc='win32yank.exe -i'
+  # alias pbc='fish_clipboard_copy'
+  alias pbp='win32yank.exe -o'
+  # alias pbp='fish_clipboard_paste'
 end
 
-# alias bi="bundle install"
-# alias bu='bundle update'
-# alias be='bundle exec'
-
-# alias d='docker'
-# alias docker-stop-all-ps='docker stop (docker ps -a -q)'
-# alias docker-rm-all-ps='docker rm (docker ps -a -q)'
