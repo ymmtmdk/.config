@@ -13,7 +13,7 @@ if test (uname) = Linux
   alias open='wsl-open'
   alias pbc='win32yank.exe -i'
   # alias pbc='fish_clipboard_copy'
-  alias pbp='win32yank.exe -o'
+  alias pbp='win32yank.exe -o --lf'
   # alias pbp='fish_clipboard_paste'
 end
 

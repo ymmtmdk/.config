@@ -15,7 +15,6 @@ function init_starship
   starship init fish | source
 end
 
-funcsave pbpaste
 if not set -q VSCODE_INJECTION
   init_starship
   source ~/.local/share/nvim/lazy/tokyonight.nvim/extras/fish/tokyonight_moon.fish
