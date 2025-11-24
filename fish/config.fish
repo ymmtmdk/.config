@@ -25,3 +25,7 @@ if status is-interactive
   # end
 end
 
+
+# ====== Antigravity Launcher Config ======
+set -gx PATH $HOME/.local/bin $PATH
+# ====== End of Antigravity Launcher Config ======
