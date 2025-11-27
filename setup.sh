@@ -1,7 +1,7 @@
 # homebrew
 #/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-brew install starship mise neovim fish  karabiner-elements google-chrome brave-browser iterm2 git-credential-manager
+brew install starship mise neovim fish fzf karabiner-elements google-chrome brave-browser iterm2 git-credential-manager
 
 # vscode
 # code --install-extension asvetliakov.vscode-neovim
