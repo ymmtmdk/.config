@@ -1,0 +1,1126 @@
+Nov 26 00:54:45 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[UFW BLOCK] IN=wlan0 OUT= MAC= SRC=192.168.1.6 DST=224.0.0.252 LEN=52 TOS=0x00 PREC=0x00 TTL=255 ID=11675 PROTO=UDP SPT=5355 DPT=5355 LEN=32 [0m[m
+Nov 26 00:54:50 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set UDP instead of UDP+EDNS0 for DNS server 240d:1a:17b:7400:ce1a:faff:fec9:37da.[0m[m
+Nov 26 00:54:53 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set UDP instead of UDP+EDNS0 for DNS server 192.168.1.1.[0m[m
+Nov 26 00:54:56 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set TCP instead of UDP for DNS server 192.168.1.1.[0m[m
+Nov 26 00:54:59 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set TCP instead of UDP for DNS server 240d:1a:17b:7400:ce1a:faff:fec9:37da.[0m[m
+Nov 26 00:55:04 mamach systemd-logind[760]: Suspending...[m
+Nov 26 00:55:04 mamach systemd[1]: Reached target Sleep.[m
+Nov 26 00:55:04 mamach systemd[1]: Starting NVIDIA system suspend actions...[m
+[7mlines 847-889[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:55:04 mamach suspend[3238]: [0;1;39m[0;1;31m[0;1;39mnvidia-suspend.service[0m[m
+Nov 26 00:55:04 mamach logger[3238]: <13>Nov 26 00:55:04 suspend: nvidia-suspend.service[m
+Nov 26 00:55:04 mamach systemd[1]: nvidia-suspend.service: Deactivated successfully.[m
+Nov 26 00:55:04 mamach systemd[1]: Finished NVIDIA system suspend actions.[m
+Nov 26 00:55:04 mamach systemd[1]: Starting System Suspend...[m
+Nov 26 00:55:04 mamach systemd-sleep[3250]: [0;1;39m[0;1;31m[0;1;39mUser sessions remain unfrozen on explicit request ($SYSTEMD_SLEEP_FREEZE_USER_SESSIONS=0).[0m[m
+Nov 26 00:55:04 mamach systemd-sleep[3250]: [0;1;39m[0;1;31m[0;1;39mThis is not recommended, and might result in unexpected behavior, particularly[0m[m
+Nov 26 00:55:04 mamach systemd-sleep[3250]: [0;1;39m[0;1;31m[0;1;39min suspend-then-hibernate operations or setups with encrypted home directories.[0m[m
+Nov 26 00:55:04 mamach systemd-sleep[3250]: Performing sleep operation 'suspend'...[m
+Nov 26 00:55:04 mamach kernel: PM: suspend entry (deep)[m
+Nov 26 00:55:04 mamach kernel: Filesystems sync: 0.021 seconds[m
+Nov 26 00:55:09 mamach kernel: Freezing user space processes[m
+Nov 26 00:55:09 mamach kernel: Freezing user space processes completed (elapsed 0.001 seconds)[m
+Nov 26 00:55:09 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:55:09 mamach kernel: OOM killer disabled.[m
+Nov 26 00:55:09 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:55:09 mamach kernel: Freezing remaining freezable tasks[m
+Nov 26 00:55:09 mamach kernel: Freezing remaining freezable tasks completed (elapsed 0.001 seconds)[m
+Nov 26 00:55:09 mamach kernel: printk: Suspending console(s) (use no_console_suspend to debug)[m
+Nov 26 00:55:09 mamach kernel: bce_vhci: suspend started[m
+Nov 26 00:55:09 mamach kernel: bce_vhci: suspend endpoints[m
+Nov 26 00:55:09 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbce-vhci: Not implemented: wait for pending output requests[0m[m
+Nov 26 00:55:09 mamach kernel: bce_vhci: suspend ports[m
+Nov 26 00:55:09 mamach kernel: bce_vhci: suspend controller[m
+Nov 26 00:55:09 mamach kernel: bce_vhci: suspend done[m
+Nov 26 00:55:09 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:09 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_set_mpc: fail to set mpc[0m[m
+Nov 26 00:55:09 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185maaudio aaudio: Failed to reset remote access[0m[m
+Nov 26 00:55:09 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: brcmf_pcie_pm_enter_D3: Timeout on response for entering D3 substate[0m[m
+Nov 26 00:55:09 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: pci_pm_suspend(): brcmf_pcie_pm_enter_D3 [brcmfmac] returns -5[0m[m
+Nov 26 00:55:09 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: dpm_run_callback(): pci_pm_suspend returns -5[0m[m
+Nov 26 00:55:09 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: failed to suspend async: error -5[0m[m
+Nov 26 00:55:09 mamach kernel: [0;1;31m[0;1;39m[0;1;31mPM: Some devices failed to suspend, or early wake event detected[0m[m
+Nov 26 00:55:09 mamach kernel: [0;1;31m[0;1;39m[0;1;31maaudio_handle_reply: No queued item found for tag: S078[0m[m
+Nov 26 00:55:09 mamach kernel: bce_vhci: resume started[m
+Nov 26 00:55:09 mamach kernel: bce_vhci: resume controller[m
+Nov 26 00:55:09 mamach kernel: nvme nvme0: 1/0/0 default/read/poll queues[m
+Nov 26 00:55:09 mamach kernel: bce_vhci: resume ports[m
+Nov 26 00:55:09 mamach kernel: bce_vhci: resume endpoints[m
+Nov 26 00:55:09 mamach kernel: bce_vhci: resume done[m
+Nov 26 00:55:09 mamach kernel: [0;1;31m[0;1;39m[0;1;31mBluetooth: hci0: command 0x0c01 tx timeout[0m[m
+Nov 26 00:55:09 mamach kernel: [0;1;31m[0;1;39m[0;1;31mBluetooth: hci0: Opcode 0x0c01 failed: -110[0m[m
+Nov 26 00:55:09 mamach kernel: OOM killer enabled.[m
+[7mlines 890-932[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:55:09 mamach kernel: Restarting tasks: Starting[m
+Nov 26 00:55:09 mamach kernel: mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])[m
+Nov 26 00:55:09 mamach kernel: Restarting tasks: Done[m
+Nov 26 00:55:09 mamach kernel: [0;1;39m[0;1;31m[0;1;39mrandom: crng reseeded on system resumption[0m[m
+Nov 26 00:55:09 mamach kernel: PM: suspend exit[m
+Nov 26 00:55:09 mamach kernel: PM: suspend entry (s2idle)[m
+Nov 26 00:55:09 mamach kernel: Filesystems sync: 0.023 seconds[m
+Nov 26 00:55:14 mamach kernel: Freezing user space processes[m
+Nov 26 00:55:14 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:55:14 mamach systemd-sleep[3250]: [0;1;31m[0;1;39m[0;1;31mFailed to put system to sleep. System resumed again: Input/output error[0m[m
+Nov 26 00:55:14 mamach kernel: Freezing user space processes completed (elapsed 0.023 seconds)[m
+Nov 26 00:55:14 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:55:14 mamach kernel: OOM killer disabled.[m
+Nov 26 00:55:14 mamach kernel: Freezing remaining freezable tasks[m
+Nov 26 00:55:14 mamach kernel: Freezing remaining freezable tasks completed (elapsed 0.000 seconds)[m
+Nov 26 00:55:14 mamach kernel: printk: Suspending console(s) (use no_console_suspend to debug)[m
+Nov 26 00:55:14 mamach kernel: bce_vhci: suspend started[m
+Nov 26 00:55:14 mamach kernel: bce_vhci: suspend endpoints[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbce-vhci: Not implemented: wait for pending output requests[0m[m
+Nov 26 00:55:14 mamach kernel: bce_vhci: suspend ports[m
+Nov 26 00:55:14 mamach kernel: bce_vhci: suspend controller[m
+Nov 26 00:55:14 mamach kernel: bce_vhci: suspend done[m
+Nov 26 00:55:14 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185maaudio aaudio: Failed to reset remote access[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_set_mpc: fail to set mpc[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_netdev_start_xmit: xmit rejected state=0[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: brcmf_pcie_pm_enter_D3: Timeout on response for entering D3 substate[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: pci_pm_suspend(): brcmf_pcie_pm_enter_D3 [brcmfmac] returns -5[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: dpm_run_callback(): pci_pm_suspend returns -5[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: failed to suspend async: error -5[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mPM: Some devices failed to suspend, or early wake event detected[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31maaudio_handle_reply: No queued item found for tag: S080[0m[m
+Nov 26 00:55:14 mamach kernel: bce_vhci: resume started[m
+Nov 26 00:55:14 mamach kernel: bce_vhci: resume controller[m
+Nov 26 00:55:14 mamach kernel: nvme nvme0: 1/0/0 default/read/poll queues[m
+Nov 26 00:55:14 mamach kernel: bce_vhci: resume ports[m
+Nov 26 00:55:14 mamach kernel: bce_vhci: resume endpoints[m
+Nov 26 00:55:14 mamach kernel: bce_vhci: resume done[m
+Nov 26 00:55:14 mamach kernel: mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])[m
+Nov 26 00:55:14 mamach kernel: OOM killer enabled.[m
+Nov 26 00:55:14 mamach kernel: Restarting tasks: Starting[m
+Nov 26 00:55:14 mamach kernel: Restarting tasks: Done[m
+Nov 26 00:55:14 mamach kernel: [0;1;39m[0;1;31m[0;1;39mrandom: crng reseeded on system resumption[0m[m
+[7mlines 933-975[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:55:14 mamach kernel: PM: suspend exit[m
+Nov 26 00:55:14 mamach systemd[1]: [0;1;39m[0;1;31m[0;1;39msystemd-suspend.service: Main process exited, code=exited, status=1/FAILURE[0m[m
+Nov 26 00:55:14 mamach systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185msystemd-suspend.service: Failed with result 'exit-code'.[0m[m
+Nov 26 00:55:14 mamach systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start System Suspend.[0m[m
+Nov 26 00:55:14 mamach systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mDependency failed for Suspend.[0m[m
+Nov 26 00:55:14 mamach systemd[1]: [0;1;39m[0;1;31m[0;1;39msuspend.target: Job suspend.target/start failed with result 'dependency'.[0m[m
+Nov 26 00:55:14 mamach systemd[1]: Stopped target Sleep.[m
+Nov 26 00:55:14 mamach systemd[1]: Starting NVIDIA system resume actions...[m
+Nov 26 00:55:14 mamach suspend[3310]: [0;1;39m[0;1;31m[0;1;39mnvidia-resume.service[0m[m
+Nov 26 00:55:14 mamach logger[3310]: <13>Nov 26 00:55:14 suspend: nvidia-resume.service[m
+Nov 26 00:55:14 mamach systemd[1]: nvidia-resume.service: Deactivated successfully.[m
+Nov 26 00:55:14 mamach systemd[1]: Finished NVIDIA system resume actions.[m
+Nov 26 00:55:14 mamach systemd-logind[760]: Operation 'suspend' finished.[m
+Nov 26 00:55:14 mamach systemd-resolved[583]: Closing all remaining TCP connections.[m
+Nov 26 00:55:14 mamach systemd-networkd[598]: enp116s0f1u1: Reconfiguring with /etc/systemd/network/20-ethernet.network.[m
+Nov 26 00:55:14 mamach systemd-resolved[583]: Resetting learnt feature levels on all servers.[m
+Nov 26 00:55:14 mamach systemd-networkd[598]: wlan0: Reconfiguring with /etc/systemd/network/20-wlan.network.[m
+Nov 26 00:55:14 mamach systemd-timesyncd[584]: Network configuration changed, trying to establish connection.[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:14 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[UFW BLOCK] IN=wlan0 OUT= MAC= SRC=192.168.1.6 DST=224.0.0.252 LEN=52 TOS=0x00 PREC=0x00 TTL=255 ID=32321 PROTO=UDP SPT=5355 DPT=5355 LEN=32 [0m[m
+[7mlines 976-1018[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:55:14 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[UFW BLOCK] IN=enp116s0f1u1 OUT= MAC= SRC=fe80:0000:0000:0000:aede:48ff:fe00:1122 DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=72 TC=0 HOPL[m[7m>[27m
+Nov 26 00:55:14 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[UFW BLOCK] IN=wlan0 OUT= MAC= SRC=fe80:0000:0000:0000:3e22:fbff:fe2b:3f6b DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=72 TC=0 HOPLIMIT=25[m[7m>[27m
+Nov 26 00:55:20 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set UDP instead of UDP+EDNS0 for DNS server 240d:1a:17b:7400:ce1a:faff:fec9:37da.[0m[m
+Nov 26 00:55:23 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set UDP instead of UDP+EDNS0 for DNS server 192.168.1.1.[0m[m
+Nov 26 00:55:26 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set TCP instead of UDP for DNS server 192.168.1.1.[0m[m
+Nov 26 00:55:29 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set TCP instead of UDP for DNS server 240d:1a:17b:7400:ce1a:faff:fec9:37da.[0m[m
+Nov 26 00:55:31 mamach iwd[755]: Received error during CMD_TRIGGER_SCAN: Cannot allocate memory (12)[m
+Nov 26 00:55:31 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:31 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_run_escan: error (-12)[0m[m
+Nov 26 00:55:31 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_cfg80211_scan: scan error (-12)[0m[m
+Nov 26 00:55:34 mamach systemd-logind[760]: Suspending...[m
+Nov 26 00:55:34 mamach systemd[1]: Reached target Sleep.[m
+Nov 26 00:55:34 mamach systemd[1]: Starting NVIDIA system suspend actions...[m
+Nov 26 00:55:34 mamach suspend[3333]: [0;1;39m[0;1;31m[0;1;39mnvidia-suspend.service[0m[m
+Nov 26 00:55:34 mamach logger[3333]: <13>Nov 26 00:55:34 suspend: nvidia-suspend.service[m
+Nov 26 00:55:34 mamach systemd[1]: nvidia-suspend.service: Deactivated successfully.[m
+Nov 26 00:55:34 mamach systemd[1]: Finished NVIDIA system suspend actions.[m
+Nov 26 00:55:34 mamach systemd[1]: Starting System Suspend...[m
+Nov 26 00:55:34 mamach systemd-sleep[3344]: [0;1;39m[0;1;31m[0;1;39mUser sessions remain unfrozen on explicit request ($SYSTEMD_SLEEP_FREEZE_USER_SESSIONS=0).[0m[m
+Nov 26 00:55:34 mamach systemd-sleep[3344]: [0;1;39m[0;1;31m[0;1;39mThis is not recommended, and might result in unexpected behavior, particularly[0m[m
+Nov 26 00:55:34 mamach systemd-sleep[3344]: [0;1;39m[0;1;31m[0;1;39min suspend-then-hibernate operations or setups with encrypted home directories.[0m[m
+Nov 26 00:55:34 mamach systemd-sleep[3344]: Performing sleep operation 'suspend'...[m
+Nov 26 00:55:34 mamach kernel: PM: suspend entry (deep)[m
+Nov 26 00:55:34 mamach kernel: Filesystems sync: 0.024 seconds[m
+Nov 26 00:55:40 mamach kernel: Freezing user space processes[m
+Nov 26 00:55:40 mamach kernel: Freezing user space processes completed (elapsed 0.001 seconds)[m
+Nov 26 00:55:40 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:55:40 mamach kernel: OOM killer disabled.[m
+Nov 26 00:55:40 mamach kernel: Freezing remaining freezable tasks[m
+Nov 26 00:55:40 mamach kernel: Freezing remaining freezable tasks completed (elapsed 0.001 seconds)[m
+Nov 26 00:55:40 mamach kernel: printk: Suspending console(s) (use no_console_suspend to debug)[m
+Nov 26 00:55:40 mamach kernel: bce_vhci: suspend started[m
+Nov 26 00:55:40 mamach kernel: bce_vhci: suspend endpoints[m
+Nov 26 00:55:40 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbce-vhci: Not implemented: wait for pending output requests[0m[m
+Nov 26 00:55:40 mamach kernel: bce_vhci: suspend ports[m
+Nov 26 00:55:40 mamach kernel: bce_vhci: suspend controller[m
+Nov 26 00:55:40 mamach kernel: bce_vhci: suspend done[m
+Nov 26 00:55:40 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:40 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:55:40 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_set_mpc: fail to set mpc[0m[m
+Nov 26 00:55:40 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: brcmf_pcie_pm_enter_D3: Timeout on response for entering D3 substate[0m[m
+Nov 26 00:55:40 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: pci_pm_suspend(): brcmf_pcie_pm_enter_D3 [brcmfmac] returns -5[0m[m
+Nov 26 00:55:40 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: dpm_run_callback(): pci_pm_suspend returns -5[0m[m
+[7mlines 1019-1061[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:55:40 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: failed to suspend async: error -5[0m[m
+Nov 26 00:55:40 mamach kernel: [0;1;31m[0;1;39m[0;1;31mPM: Some devices failed to suspend, or early wake event detected[0m[m
+Nov 26 00:55:40 mamach kernel: bce_vhci: resume started[m
+Nov 26 00:55:40 mamach kernel: bce_vhci: resume controller[m
+Nov 26 00:55:40 mamach kernel: bce_vhci: resume ports[m
+Nov 26 00:55:40 mamach kernel: nvme nvme0: 1/0/0 default/read/poll queues[m
+Nov 26 00:55:40 mamach kernel: bce_vhci: resume endpoints[m
+Nov 26 00:55:40 mamach kernel: bce_vhci: resume done[m
+Nov 26 00:55:40 mamach kernel: [0;1;31m[0;1;39m[0;1;31mBluetooth: hci0: Opcode 0x0c01 failed: -110[0m[m
+Nov 26 00:55:40 mamach kernel: [0;1;31m[0;1;39m[0;1;31mBluetooth: hci0: command 0x0c01 tx timeout[0m[m
+Nov 26 00:55:40 mamach kernel: mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])[m
+Nov 26 00:55:40 mamach kernel: OOM killer enabled.[m
+Nov 26 00:55:40 mamach kernel: Restarting tasks: Starting[m
+Nov 26 00:55:40 mamach kernel: Restarting tasks: Done[m
+Nov 26 00:55:40 mamach kernel: [0;1;39m[0;1;31m[0;1;39mrandom: crng reseeded on system resumption[0m[m
+Nov 26 00:55:40 mamach kernel: PM: suspend exit[m
+Nov 26 00:55:40 mamach kernel: PM: suspend entry (s2idle)[m
+Nov 26 00:55:40 mamach kernel: Filesystems sync: 0.005 seconds[m
+Nov 26 00:55:44 mamach kernel: Freezing user space processes[m
+Nov 26 00:55:44 mamach kernel: Freezing user space processes completed (elapsed 0.015 seconds)[m
+Nov 26 00:55:44 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:55:44 mamach kernel: OOM killer disabled.[m
+Nov 26 00:55:44 mamach kernel: Freezing remaining freezable tasks[m
+Nov 26 00:55:44 mamach kernel: Freezing remaining freezable tasks completed (elapsed 0.000 seconds)[m
+Nov 26 00:55:44 mamach kernel: printk: Suspending console(s) (use no_console_suspend to debug)[m
+Nov 26 00:55:44 mamach kernel: bce_vhci: suspend started[m
+Nov 26 00:55:44 mamach kernel: bce_vhci: suspend endpoints[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbce-vhci: Not implemented: wait for pending output requests[0m[m
+Nov 26 00:55:44 mamach kernel: bce_vhci: suspend ports[m
+Nov 26 00:55:44 mamach kernel: bce_vhci: suspend controller[m
+Nov 26 00:55:44 mamach kernel: bce_vhci: suspend done[m
+Nov 26 00:55:44 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185maaudio aaudio: Failed to reset remote access[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:44 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:55:44 mamach systemd-sleep[3344]: [0;1;31m[0;1;39m[0;1;31mFailed to put system to sleep. System resumed again: Input/output error[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_set_mpc: fail to set mpc[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_netdev_start_xmit: xmit rejected state=0[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: brcmf_pcie_pm_enter_D3: Timeout on response for entering D3 substate[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: pci_pm_suspend(): brcmf_pcie_pm_enter_D3 [brcmfmac] returns -5[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: dpm_run_callback(): pci_pm_suspend returns -5[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: failed to suspend async: error -5[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mPM: Some devices failed to suspend, or early wake event detected[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31maaudio_handle_reply: No queued item found for tag: S084[0m[m
+[7mlines 1062-1104[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:55:44 mamach kernel: bce_vhci: resume started[m
+Nov 26 00:55:44 mamach kernel: bce_vhci: resume controller[m
+Nov 26 00:55:44 mamach kernel: nvme nvme0: 1/0/0 default/read/poll queues[m
+Nov 26 00:55:44 mamach kernel: bce_vhci: resume ports[m
+Nov 26 00:55:44 mamach kernel: bce_vhci: resume endpoints[m
+Nov 26 00:55:44 mamach kernel: bce_vhci: resume done[m
+Nov 26 00:55:44 mamach kernel: mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])[m
+Nov 26 00:55:44 mamach kernel: OOM killer enabled.[m
+Nov 26 00:55:44 mamach kernel: Restarting tasks: Starting[m
+Nov 26 00:55:44 mamach kernel: Restarting tasks: Done[m
+Nov 26 00:55:44 mamach kernel: [0;1;39m[0;1;31m[0;1;39mrandom: crng reseeded on system resumption[0m[m
+Nov 26 00:55:44 mamach kernel: PM: suspend exit[m
+Nov 26 00:55:44 mamach systemd[1]: [0;1;39m[0;1;31m[0;1;39msystemd-suspend.service: Main process exited, code=exited, status=1/FAILURE[0m[m
+Nov 26 00:55:44 mamach systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185msystemd-suspend.service: Failed with result 'exit-code'.[0m[m
+Nov 26 00:55:44 mamach systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start System Suspend.[0m[m
+Nov 26 00:55:44 mamach systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mDependency failed for Suspend.[0m[m
+Nov 26 00:55:44 mamach systemd[1]: [0;1;39m[0;1;31m[0;1;39msuspend.target: Job suspend.target/start failed with result 'dependency'.[0m[m
+Nov 26 00:55:44 mamach systemd[1]: Stopped target Sleep.[m
+Nov 26 00:55:44 mamach systemd[1]: Starting NVIDIA system resume actions...[m
+Nov 26 00:55:44 mamach suspend[3405]: [0;1;39m[0;1;31m[0;1;39mnvidia-resume.service[0m[m
+Nov 26 00:55:44 mamach logger[3405]: <13>Nov 26 00:55:44 suspend: nvidia-resume.service[m
+Nov 26 00:55:44 mamach systemd[1]: nvidia-resume.service: Deactivated successfully.[m
+Nov 26 00:55:44 mamach systemd[1]: Finished NVIDIA system resume actions.[m
+Nov 26 00:55:44 mamach systemd-logind[760]: Operation 'suspend' finished.[m
+Nov 26 00:55:44 mamach systemd-resolved[583]: Closing all remaining TCP connections.[m
+Nov 26 00:55:44 mamach systemd-networkd[598]: enp116s0f1u1: Reconfiguring with /etc/systemd/network/20-ethernet.network.[m
+Nov 26 00:55:44 mamach systemd-resolved[583]: Resetting learnt feature levels on all servers.[m
+Nov 26 00:55:44 mamach systemd-networkd[598]: wlan0: Reconfiguring with /etc/systemd/network/20-wlan.network.[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[UFW BLOCK] IN=wlan0 OUT= MAC= SRC=192.168.1.6 DST=224.0.0.252 LEN=52 TOS=0x00 PREC=0x00 TTL=255 ID=34131 PROTO=UDP SPT=5355 DPT=5355 LEN=32 [0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+[7mlines 1105-1147[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:55:44 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[UFW BLOCK] IN=wlan0 OUT= MAC= SRC=fe80:0000:0000:0000:3e22:fbff:fe2b:3f6b DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=72 TC=0 HOPLIMIT=25[m[7m>[27m
+Nov 26 00:55:45 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[UFW BLOCK] IN=wlan0 OUT= MAC= SRC=192.168.1.6 DST=224.0.0.252 LEN=52 TOS=0x00 PREC=0x00 TTL=255 ID=35022 PROTO=UDP SPT=5355 DPT=5355 LEN=32 [0m[m
+Nov 26 00:55:50 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set UDP instead of UDP+EDNS0 for DNS server 192.168.1.1.[0m[m
+Nov 26 00:55:53 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set UDP instead of UDP+EDNS0 for DNS server 240d:1a:17b:7400:ce1a:faff:fec9:37da.[0m[m
+Nov 26 00:55:56 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set TCP instead of UDP for DNS server 240d:1a:17b:7400:ce1a:faff:fec9:37da.[0m[m
+Nov 26 00:56:00 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set TCP instead of UDP for DNS server 192.168.1.1.[0m[m
+Nov 26 00:56:04 mamach systemd-logind[760]: Suspending...[m
+Nov 26 00:56:04 mamach systemd[1]: Reached target Sleep.[m
+Nov 26 00:56:04 mamach systemd[1]: Starting NVIDIA system suspend actions...[m
+Nov 26 00:56:04 mamach suspend[3426]: [0;1;39m[0;1;31m[0;1;39mnvidia-suspend.service[0m[m
+Nov 26 00:56:04 mamach logger[3426]: <13>Nov 26 00:56:04 suspend: nvidia-suspend.service[m
+Nov 26 00:56:04 mamach systemd[1]: nvidia-suspend.service: Deactivated successfully.[m
+Nov 26 00:56:04 mamach systemd[1]: Finished NVIDIA system suspend actions.[m
+Nov 26 00:56:04 mamach systemd[1]: Starting System Suspend...[m
+Nov 26 00:56:04 mamach systemd-sleep[3442]: [0;1;39m[0;1;31m[0;1;39mUser sessions remain unfrozen on explicit request ($SYSTEMD_SLEEP_FREEZE_USER_SESSIONS=0).[0m[m
+Nov 26 00:56:04 mamach systemd-sleep[3442]: [0;1;39m[0;1;31m[0;1;39mThis is not recommended, and might result in unexpected behavior, particularly[0m[m
+Nov 26 00:56:04 mamach systemd-sleep[3442]: [0;1;39m[0;1;31m[0;1;39min suspend-then-hibernate operations or setups with encrypted home directories.[0m[m
+Nov 26 00:56:04 mamach systemd-sleep[3442]: Performing sleep operation 'suspend'...[m
+Nov 26 00:56:04 mamach kernel: PM: suspend entry (deep)[m
+Nov 26 00:56:04 mamach kernel: Filesystems sync: 0.022 seconds[m
+Nov 26 00:56:10 mamach kernel: Freezing user space processes[m
+Nov 26 00:56:10 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:56:10 mamach kernel: Freezing user space processes completed (elapsed 0.001 seconds)[m
+Nov 26 00:56:10 mamach kernel: OOM killer disabled.[m
+Nov 26 00:56:10 mamach kernel: Freezing remaining freezable tasks[m
+Nov 26 00:56:10 mamach kernel: Freezing remaining freezable tasks completed (elapsed 0.000 seconds)[m
+Nov 26 00:56:10 mamach kernel: printk: Suspending console(s) (use no_console_suspend to debug)[m
+Nov 26 00:56:10 mamach kernel: bce_vhci: suspend started[m
+Nov 26 00:56:10 mamach kernel: bce_vhci: suspend endpoints[m
+Nov 26 00:56:10 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbce-vhci: Not implemented: wait for pending output requests[0m[m
+Nov 26 00:56:10 mamach kernel: bce_vhci: suspend ports[m
+Nov 26 00:56:10 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:56:10 mamach kernel: bce_vhci: suspend controller[m
+[7mlines 1148-1190[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:56:10 mamach kernel: bce_vhci: suspend done[m
+Nov 26 00:56:10 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:10 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_set_mpc: fail to set mpc[0m[m
+Nov 26 00:56:10 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185maaudio aaudio: Failed to reset remote access[0m[m
+Nov 26 00:56:10 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: brcmf_pcie_pm_enter_D3: Timeout on response for entering D3 substate[0m[m
+Nov 26 00:56:10 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: pci_pm_suspend(): brcmf_pcie_pm_enter_D3 [brcmfmac] returns -5[0m[m
+Nov 26 00:56:10 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: dpm_run_callback(): pci_pm_suspend returns -5[0m[m
+Nov 26 00:56:10 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: failed to suspend async: error -5[0m[m
+Nov 26 00:56:10 mamach kernel: [0;1;31m[0;1;39m[0;1;31mPM: Some devices failed to suspend, or early wake event detected[0m[m
+Nov 26 00:56:10 mamach kernel: [0;1;31m[0;1;39m[0;1;31maaudio_handle_reply: No queued item found for tag: S086[0m[m
+Nov 26 00:56:10 mamach kernel: bce_vhci: resume started[m
+Nov 26 00:56:10 mamach kernel: bce_vhci: resume controller[m
+Nov 26 00:56:10 mamach kernel: nvme nvme0: 1/0/0 default/read/poll queues[m
+Nov 26 00:56:10 mamach kernel: bce_vhci: resume ports[m
+Nov 26 00:56:10 mamach kernel: bce_vhci: resume endpoints[m
+Nov 26 00:56:10 mamach kernel: bce_vhci: resume done[m
+Nov 26 00:56:10 mamach kernel: [0;1;31m[0;1;39m[0;1;31mBluetooth: hci0: command 0x0c01 tx timeout[0m[m
+Nov 26 00:56:10 mamach kernel: [0;1;31m[0;1;39m[0;1;31mBluetooth: hci0: Opcode 0x0c01 failed: -110[0m[m
+Nov 26 00:56:10 mamach kernel: mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])[m
+Nov 26 00:56:10 mamach kernel: OOM killer enabled.[m
+Nov 26 00:56:10 mamach kernel: Restarting tasks: Starting[m
+Nov 26 00:56:10 mamach kernel: Restarting tasks: Done[m
+Nov 26 00:56:10 mamach kernel: [0;1;39m[0;1;31m[0;1;39mrandom: crng reseeded on system resumption[0m[m
+Nov 26 00:56:10 mamach kernel: PM: suspend exit[m
+Nov 26 00:56:10 mamach kernel: PM: suspend entry (s2idle)[m
+Nov 26 00:56:10 mamach kernel: Filesystems sync: 0.025 seconds[m
+Nov 26 00:56:14 mamach kernel: Freezing user space processes[m
+Nov 26 00:56:14 mamach kernel: Freezing user space processes completed (elapsed 0.024 seconds)[m
+Nov 26 00:56:14 mamach kernel: OOM killer disabled.[m
+Nov 26 00:56:14 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:56:14 mamach kernel: Freezing remaining freezable tasks[m
+Nov 26 00:56:14 mamach systemd-sleep[3442]: [0;1;31m[0;1;39m[0;1;31mFailed to put system to sleep. System resumed again: Input/output error[0m[m
+Nov 26 00:56:14 mamach kernel: Freezing remaining freezable tasks completed (elapsed 0.000 seconds)[m
+Nov 26 00:56:14 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:56:14 mamach kernel: printk: Suspending console(s) (use no_console_suspend to debug)[m
+Nov 26 00:56:14 mamach kernel: bce_vhci: suspend started[m
+Nov 26 00:56:14 mamach kernel: bce_vhci: suspend endpoints[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbce-vhci: Not implemented: wait for pending output requests[0m[m
+Nov 26 00:56:14 mamach kernel: bce_vhci: suspend ports[m
+Nov 26 00:56:14 mamach kernel: bce_vhci: suspend controller[m
+Nov 26 00:56:14 mamach kernel: bce_vhci: suspend done[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:14 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185maaudio aaudio: Failed to reset remote access[0m[m
+[7mlines 1191-1233[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_set_mpc: fail to set mpc[0m[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_netdev_start_xmit: xmit rejected state=0[0m[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: brcmf_pcie_pm_enter_D3: Timeout on response for entering D3 substate[0m[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: pci_pm_suspend(): brcmf_pcie_pm_enter_D3 [brcmfmac] returns -5[0m[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: dpm_run_callback(): pci_pm_suspend returns -5[0m[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: failed to suspend async: error -5[0m[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mPM: Some devices failed to suspend, or early wake event detected[0m[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31maaudio_handle_reply: No queued item found for tag: S088[0m[m
+Nov 26 00:56:14 mamach kernel: bce_vhci: resume started[m
+Nov 26 00:56:14 mamach kernel: bce_vhci: resume controller[m
+Nov 26 00:56:14 mamach kernel: nvme nvme0: 1/0/0 default/read/poll queues[m
+Nov 26 00:56:14 mamach kernel: bce_vhci: resume ports[m
+Nov 26 00:56:14 mamach kernel: bce_vhci: resume endpoints[m
+Nov 26 00:56:14 mamach kernel: bce_vhci: resume done[m
+Nov 26 00:56:14 mamach kernel: OOM killer enabled.[m
+Nov 26 00:56:14 mamach kernel: Restarting tasks: Starting[m
+Nov 26 00:56:14 mamach kernel: mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])[m
+Nov 26 00:56:14 mamach kernel: Restarting tasks: Done[m
+Nov 26 00:56:14 mamach kernel: [0;1;39m[0;1;31m[0;1;39mrandom: crng reseeded on system resumption[0m[m
+Nov 26 00:56:14 mamach kernel: PM: suspend exit[m
+Nov 26 00:56:14 mamach systemd[1]: [0;1;39m[0;1;31m[0;1;39msystemd-suspend.service: Main process exited, code=exited, status=1/FAILURE[0m[m
+Nov 26 00:56:14 mamach systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185msystemd-suspend.service: Failed with result 'exit-code'.[0m[m
+Nov 26 00:56:14 mamach systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start System Suspend.[0m[m
+Nov 26 00:56:14 mamach systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mDependency failed for Suspend.[0m[m
+Nov 26 00:56:14 mamach systemd[1]: [0;1;39m[0;1;31m[0;1;39msuspend.target: Job suspend.target/start failed with result 'dependency'.[0m[m
+Nov 26 00:56:14 mamach systemd[1]: Stopped target Sleep.[m
+Nov 26 00:56:14 mamach systemd[1]: Starting NVIDIA system resume actions...[m
+Nov 26 00:56:14 mamach suspend[3498]: [0;1;39m[0;1;31m[0;1;39mnvidia-resume.service[0m[m
+Nov 26 00:56:14 mamach logger[3498]: <13>Nov 26 00:56:14 suspend: nvidia-resume.service[m
+Nov 26 00:56:14 mamach systemd[1]: nvidia-resume.service: Deactivated successfully.[m
+Nov 26 00:56:14 mamach systemd[1]: Finished NVIDIA system resume actions.[m
+Nov 26 00:56:14 mamach systemd-logind[760]: Operation 'suspend' finished.[m
+Nov 26 00:56:14 mamach systemd-resolved[583]: Closing all remaining TCP connections.[m
+Nov 26 00:56:14 mamach systemd-networkd[598]: enp116s0f1u1: Reconfiguring with /etc/systemd/network/20-ethernet.network.[m
+Nov 26 00:56:14 mamach systemd-resolved[583]: Resetting learnt feature levels on all servers.[m
+Nov 26 00:56:14 mamach systemd-networkd[598]: wlan0: Reconfiguring with /etc/systemd/network/20-wlan.network.[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+[7mlines 1234-1276[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:14 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:56:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:56:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:56:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:56:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:56:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:56:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:15 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[UFW BLOCK] IN=enp116s0f1u1 OUT= MAC= SRC=fe80:0000:0000:0000:aede:48ff:fe00:1122 DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=72 TC=0 HOPL[m[7m>[27m
+Nov 26 00:56:15 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[UFW BLOCK] IN=wlan0 OUT= MAC= SRC=192.168.1.6 DST=224.0.0.252 LEN=52 TOS=0x00 PREC=0x00 TTL=255 ID=41911 PROTO=UDP SPT=5355 DPT=5355 LEN=32 [0m[m
+Nov 26 00:56:15 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[UFW BLOCK] IN=wlan0 OUT= MAC= SRC=fe80:0000:0000:0000:3e22:fbff:fe2b:3f6b DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=72 TC=0 HOPLIMIT=25[m[7m>[27m
+Nov 26 00:56:17 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[UFW BLOCK] IN=wlan0 OUT= MAC= SRC=192.168.1.6 DST=224.0.0.252 LEN=52 TOS=0x00 PREC=0x00 TTL=255 ID=43082 PROTO=UDP SPT=5355 DPT=5355 LEN=32 [0m[m
+Nov 26 00:56:20 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set UDP instead of UDP+EDNS0 for DNS server 192.168.1.1.[0m[m
+Nov 26 00:56:23 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set UDP instead of UDP+EDNS0 for DNS server 240d:1a:17b:7400:ce1a:faff:fec9:37da.[0m[m
+Nov 26 00:56:27 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set TCP instead of UDP for DNS server 240d:1a:17b:7400:ce1a:faff:fec9:37da.[0m[m
+Nov 26 00:56:30 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set TCP instead of UDP for DNS server 192.168.1.1.[0m[m
+Nov 26 00:56:34 mamach systemd-logind[760]: Suspending...[m
+Nov 26 00:56:34 mamach systemd[1]: Reached target Sleep.[m
+Nov 26 00:56:34 mamach systemd[1]: Starting NVIDIA system suspend actions...[m
+Nov 26 00:56:34 mamach suspend[3519]: [0;1;39m[0;1;31m[0;1;39mnvidia-suspend.service[0m[m
+Nov 26 00:56:34 mamach logger[3519]: <13>Nov 26 00:56:34 suspend: nvidia-suspend.service[m
+Nov 26 00:56:34 mamach systemd[1]: nvidia-suspend.service: Deactivated successfully.[m
+Nov 26 00:56:34 mamach systemd[1]: Finished NVIDIA system suspend actions.[m
+Nov 26 00:56:34 mamach systemd[1]: Starting System Suspend...[m
+Nov 26 00:56:34 mamach systemd-sleep[3536]: [0;1;39m[0;1;31m[0;1;39mUser sessions remain unfrozen on explicit request ($SYSTEMD_SLEEP_FREEZE_USER_SESSIONS=0).[0m[m
+Nov 26 00:56:34 mamach systemd-sleep[3536]: [0;1;39m[0;1;31m[0;1;39mThis is not recommended, and might result in unexpected behavior, particularly[0m[m
+[7mlines 1277-1319[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:56:34 mamach systemd-sleep[3536]: [0;1;39m[0;1;31m[0;1;39min suspend-then-hibernate operations or setups with encrypted home directories.[0m[m
+Nov 26 00:56:34 mamach systemd-sleep[3536]: Performing sleep operation 'suspend'...[m
+Nov 26 00:56:34 mamach kernel: PM: suspend entry (deep)[m
+Nov 26 00:56:34 mamach kernel: Filesystems sync: 0.022 seconds[m
+Nov 26 00:56:40 mamach kernel: Freezing user space processes[m
+Nov 26 00:56:40 mamach kernel: Freezing user space processes completed (elapsed 0.001 seconds)[m
+Nov 26 00:56:40 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:56:40 mamach kernel: OOM killer disabled.[m
+Nov 26 00:56:40 mamach kernel: Freezing remaining freezable tasks[m
+Nov 26 00:56:40 mamach kernel: Freezing remaining freezable tasks completed (elapsed 0.000 seconds)[m
+Nov 26 00:56:40 mamach kernel: printk: Suspending console(s) (use no_console_suspend to debug)[m
+Nov 26 00:56:40 mamach kernel: bce_vhci: suspend started[m
+Nov 26 00:56:40 mamach kernel: bce_vhci: suspend endpoints[m
+Nov 26 00:56:40 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbce-vhci: Not implemented: wait for pending output requests[0m[m
+Nov 26 00:56:40 mamach kernel: bce_vhci: suspend ports[m
+Nov 26 00:56:40 mamach kernel: bce_vhci: suspend controller[m
+Nov 26 00:56:40 mamach kernel: bce_vhci: suspend done[m
+Nov 26 00:56:40 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:40 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_set_mpc: fail to set mpc[0m[m
+Nov 26 00:56:40 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:56:40 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: brcmf_pcie_pm_enter_D3: Timeout on response for entering D3 substate[0m[m
+Nov 26 00:56:40 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: pci_pm_suspend(): brcmf_pcie_pm_enter_D3 [brcmfmac] returns -5[0m[m
+Nov 26 00:56:40 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: dpm_run_callback(): pci_pm_suspend returns -5[0m[m
+Nov 26 00:56:40 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: failed to suspend async: error -5[0m[m
+Nov 26 00:56:40 mamach kernel: [0;1;31m[0;1;39m[0;1;31mPM: Some devices failed to suspend, or early wake event detected[0m[m
+Nov 26 00:56:40 mamach kernel: bce_vhci: resume started[m
+Nov 26 00:56:40 mamach kernel: bce_vhci: resume controller[m
+Nov 26 00:56:40 mamach kernel: nvme nvme0: 1/0/0 default/read/poll queues[m
+Nov 26 00:56:40 mamach kernel: bce_vhci: resume ports[m
+Nov 26 00:56:40 mamach kernel: bce_vhci: resume endpoints[m
+Nov 26 00:56:40 mamach kernel: bce_vhci: resume done[m
+Nov 26 00:56:40 mamach kernel: [0;1;31m[0;1;39m[0;1;31mBluetooth: hci0: command 0x0c01 tx timeout[0m[m
+Nov 26 00:56:40 mamach kernel: [0;1;31m[0;1;39m[0;1;31mBluetooth: hci0: Opcode 0x0c01 failed: -110[0m[m
+Nov 26 00:56:40 mamach kernel: mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])[m
+Nov 26 00:56:40 mamach kernel: OOM killer enabled.[m
+Nov 26 00:56:40 mamach kernel: Restarting tasks: Starting[m
+Nov 26 00:56:40 mamach kernel: Restarting tasks: Done[m
+Nov 26 00:56:40 mamach kernel: [0;1;39m[0;1;31m[0;1;39mrandom: crng reseeded on system resumption[0m[m
+Nov 26 00:56:40 mamach kernel: PM: suspend exit[m
+Nov 26 00:56:40 mamach kernel: PM: suspend entry (s2idle)[m
+Nov 26 00:56:40 mamach kernel: Filesystems sync: 0.022 seconds[m
+Nov 26 00:56:44 mamach kernel: Freezing user space processes[m
+Nov 26 00:56:44 mamach kernel: Freezing user space processes completed (elapsed 0.023 seconds)[m
+[7mlines 1320-1362[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:56:44 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:56:44 mamach kernel: OOM killer disabled.[m
+Nov 26 00:56:44 mamach kernel: Freezing remaining freezable tasks[m
+Nov 26 00:56:44 mamach kernel: Freezing remaining freezable tasks completed (elapsed 0.000 seconds)[m
+Nov 26 00:56:44 mamach kernel: printk: Suspending console(s) (use no_console_suspend to debug)[m
+Nov 26 00:56:44 mamach kernel: bce_vhci: suspend started[m
+Nov 26 00:56:44 mamach kernel: bce_vhci: suspend endpoints[m
+Nov 26 00:56:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbce-vhci: Not implemented: wait for pending output requests[0m[m
+Nov 26 00:56:44 mamach kernel: bce_vhci: suspend ports[m
+Nov 26 00:56:44 mamach kernel: bce_vhci: suspend controller[m
+Nov 26 00:56:44 mamach kernel: bce_vhci: suspend done[m
+Nov 26 00:56:44 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185maaudio aaudio: Failed to reset remote access[0m[m
+Nov 26 00:56:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_set_mpc: fail to set mpc[0m[m
+Nov 26 00:56:44 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:56:44 mamach systemd-sleep[3536]: [0;1;31m[0;1;39m[0;1;31mFailed to put system to sleep. System resumed again: Input/output error[0m[m
+Nov 26 00:56:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_netdev_start_xmit: xmit rejected state=0[0m[m
+Nov 26 00:56:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: brcmf_pcie_pm_enter_D3: Timeout on response for entering D3 substate[0m[m
+Nov 26 00:56:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: pci_pm_suspend(): brcmf_pcie_pm_enter_D3 [brcmfmac] returns -5[0m[m
+Nov 26 00:56:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: dpm_run_callback(): pci_pm_suspend returns -5[0m[m
+Nov 26 00:56:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: failed to suspend async: error -5[0m[m
+Nov 26 00:56:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31mPM: Some devices failed to suspend, or early wake event detected[0m[m
+Nov 26 00:56:44 mamach kernel: [0;1;31m[0;1;39m[0;1;31maaudio_handle_reply: No queued item found for tag: S092[0m[m
+Nov 26 00:56:44 mamach kernel: bce_vhci: resume started[m
+Nov 26 00:56:44 mamach kernel: bce_vhci: resume controller[m
+Nov 26 00:56:44 mamach kernel: nvme nvme0: 1/0/0 default/read/poll queues[m
+Nov 26 00:56:44 mamach kernel: bce_vhci: resume ports[m
+Nov 26 00:56:44 mamach kernel: bce_vhci: resume endpoints[m
+Nov 26 00:56:44 mamach kernel: bce_vhci: resume done[m
+Nov 26 00:56:44 mamach kernel: mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])[m
+Nov 26 00:56:44 mamach kernel: OOM killer enabled.[m
+Nov 26 00:56:44 mamach kernel: Restarting tasks: Starting[m
+Nov 26 00:56:44 mamach kernel: Restarting tasks: Done[m
+Nov 26 00:56:44 mamach kernel: [0;1;39m[0;1;31m[0;1;39mrandom: crng reseeded on system resumption[0m[m
+Nov 26 00:56:44 mamach kernel: PM: suspend exit[m
+Nov 26 00:56:44 mamach systemd[1]: [0;1;39m[0;1;31m[0;1;39msystemd-suspend.service: Main process exited, code=exited, status=1/FAILURE[0m[m
+Nov 26 00:56:44 mamach systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185msystemd-suspend.service: Failed with result 'exit-code'.[0m[m
+Nov 26 00:56:44 mamach systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start System Suspend.[0m[m
+Nov 26 00:56:44 mamach systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mDependency failed for Suspend.[0m[m
+Nov 26 00:56:44 mamach systemd[1]: [0;1;39m[0;1;31m[0;1;39msuspend.target: Job suspend.target/start failed with result 'dependency'.[0m[m
+Nov 26 00:56:44 mamach systemd[1]: Stopped target Sleep.[m
+Nov 26 00:56:44 mamach systemd[1]: Starting NVIDIA system resume actions...[m
+Nov 26 00:56:45 mamach suspend[3591]: [0;1;39m[0;1;31m[0;1;39mnvidia-resume.service[0m[m
+[7mlines 1363-1405[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:56:45 mamach logger[3591]: <13>Nov 26 00:56:45 suspend: nvidia-resume.service[m
+Nov 26 00:56:45 mamach systemd[1]: nvidia-resume.service: Deactivated successfully.[m
+Nov 26 00:56:45 mamach systemd[1]: Finished NVIDIA system resume actions.[m
+Nov 26 00:56:45 mamach systemd-logind[760]: Operation 'suspend' finished.[m
+Nov 26 00:56:45 mamach systemd-resolved[583]: Closing all remaining TCP connections.[m
+Nov 26 00:56:45 mamach systemd-networkd[598]: enp116s0f1u1: Reconfiguring with /etc/systemd/network/20-ethernet.network.[m
+Nov 26 00:56:45 mamach systemd-resolved[583]: Resetting learnt feature levels on all servers.[m
+Nov 26 00:56:45 mamach systemd-networkd[598]: wlan0: Reconfiguring with /etc/systemd/network/20-wlan.network.[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:56:45 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[UFW BLOCK] IN=wlan0 OUT= MAC= SRC=fe80:0000:0000:0000:3e22:fbff:fe2b:3f6b DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=72 TC=0 HOPLIMIT=25[m[7m>[27m
+Nov 26 00:56:45 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[UFW BLOCK] IN=wlan0 OUT= MAC= SRC=192.168.1.6 DST=224.0.0.252 LEN=52 TOS=0x00 PREC=0x00 TTL=255 ID=1197 PROTO=UDP SPT=5355 DPT=5355 LEN=32 [0m[m
+Nov 26 00:56:51 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set UDP instead of UDP+EDNS0 for DNS server 192.168.1.1.[0m[m
+Nov 26 00:56:54 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set UDP instead of UDP+EDNS0 for DNS server 240d:1a:17b:7400:ce1a:faff:fec9:37da.[0m[m
+Nov 26 00:56:57 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set TCP instead of UDP for DNS server 240d:1a:17b:7400:ce1a:faff:fec9:37da.[0m[m
+Nov 26 00:57:00 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set TCP instead of UDP for DNS server 192.168.1.1.[0m[m
+Nov 26 00:57:05 mamach systemd-logind[760]: Suspending...[m
+Nov 26 00:57:05 mamach systemd[1]: Reached target Sleep.[m
+Nov 26 00:57:05 mamach systemd[1]: Starting NVIDIA system suspend actions...[m
+Nov 26 00:57:05 mamach suspend[3612]: [0;1;39m[0;1;31m[0;1;39mnvidia-suspend.service[0m[m
+Nov 26 00:57:05 mamach logger[3612]: <13>Nov 26 00:57:05 suspend: nvidia-suspend.service[m
+[7mlines 1406-1448[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:57:05 mamach systemd[1]: nvidia-suspend.service: Deactivated successfully.[m
+Nov 26 00:57:05 mamach systemd[1]: Finished NVIDIA system suspend actions.[m
+Nov 26 00:57:05 mamach systemd[1]: Starting System Suspend...[m
+Nov 26 00:57:05 mamach systemd-sleep[3624]: [0;1;39m[0;1;31m[0;1;39mUser sessions remain unfrozen on explicit request ($SYSTEMD_SLEEP_FREEZE_USER_SESSIONS=0).[0m[m
+Nov 26 00:57:05 mamach systemd-sleep[3624]: [0;1;39m[0;1;31m[0;1;39mThis is not recommended, and might result in unexpected behavior, particularly[0m[m
+Nov 26 00:57:05 mamach systemd-sleep[3624]: [0;1;39m[0;1;31m[0;1;39min suspend-then-hibernate operations or setups with encrypted home directories.[0m[m
+Nov 26 00:57:05 mamach systemd-sleep[3624]: Performing sleep operation 'suspend'...[m
+Nov 26 00:57:05 mamach kernel: PM: suspend entry (deep)[m
+Nov 26 00:57:05 mamach kernel: Filesystems sync: 0.023 seconds[m
+Nov 26 00:57:10 mamach kernel: Freezing user space processes[m
+Nov 26 00:57:10 mamach kernel: Freezing user space processes completed (elapsed 0.001 seconds)[m
+Nov 26 00:57:10 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:57:10 mamach kernel: OOM killer disabled.[m
+Nov 26 00:57:10 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:57:10 mamach kernel: Freezing remaining freezable tasks[m
+Nov 26 00:57:10 mamach kernel: Freezing remaining freezable tasks completed (elapsed 0.001 seconds)[m
+Nov 26 00:57:10 mamach kernel: printk: Suspending console(s) (use no_console_suspend to debug)[m
+Nov 26 00:57:10 mamach kernel: bce_vhci: suspend started[m
+Nov 26 00:57:10 mamach kernel: bce_vhci: suspend endpoints[m
+Nov 26 00:57:10 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbce-vhci: Not implemented: wait for pending output requests[0m[m
+Nov 26 00:57:10 mamach kernel: bce_vhci: suspend ports[m
+Nov 26 00:57:10 mamach kernel: bce_vhci: suspend controller[m
+Nov 26 00:57:10 mamach kernel: bce_vhci: suspend done[m
+Nov 26 00:57:10 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:10 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_set_mpc: fail to set mpc[0m[m
+Nov 26 00:57:10 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: brcmf_pcie_pm_enter_D3: Timeout on response for entering D3 substate[0m[m
+Nov 26 00:57:10 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: pci_pm_suspend(): brcmf_pcie_pm_enter_D3 [brcmfmac] returns -5[0m[m
+Nov 26 00:57:10 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: dpm_run_callback(): pci_pm_suspend returns -5[0m[m
+Nov 26 00:57:10 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: failed to suspend async: error -5[0m[m
+Nov 26 00:57:10 mamach kernel: [0;1;31m[0;1;39m[0;1;31mPM: Some devices failed to suspend, or early wake event detected[0m[m
+Nov 26 00:57:10 mamach kernel: bce_vhci: resume started[m
+Nov 26 00:57:10 mamach kernel: bce_vhci: resume controller[m
+Nov 26 00:57:10 mamach kernel: nvme nvme0: 1/0/0 default/read/poll queues[m
+Nov 26 00:57:10 mamach kernel: bce_vhci: resume ports[m
+Nov 26 00:57:10 mamach kernel: bce_vhci: resume endpoints[m
+Nov 26 00:57:10 mamach kernel: bce_vhci: resume done[m
+Nov 26 00:57:10 mamach kernel: [0;1;31m[0;1;39m[0;1;31mBluetooth: hci0: command 0x0c01 tx timeout[0m[m
+Nov 26 00:57:10 mamach kernel: [0;1;31m[0;1;39m[0;1;31mBluetooth: hci0: Opcode 0x0c01 failed: -110[0m[m
+Nov 26 00:57:10 mamach kernel: OOM killer enabled.[m
+Nov 26 00:57:10 mamach kernel: Restarting tasks: Starting[m
+Nov 26 00:57:10 mamach kernel: mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])[m
+Nov 26 00:57:10 mamach kernel: Restarting tasks: Done[m
+Nov 26 00:57:10 mamach kernel: [0;1;39m[0;1;31m[0;1;39mrandom: crng reseeded on system resumption[0m[m
+[7mlines 1449-1491[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:57:10 mamach kernel: PM: suspend exit[m
+Nov 26 00:57:10 mamach kernel: PM: suspend entry (s2idle)[m
+Nov 26 00:57:10 mamach kernel: Filesystems sync: 0.023 seconds[m
+Nov 26 00:57:15 mamach kernel: Freezing user space processes[m
+Nov 26 00:57:15 mamach kernel: Freezing user space processes completed (elapsed 0.031 seconds)[m
+Nov 26 00:57:15 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:57:15 mamach kernel: OOM killer disabled.[m
+Nov 26 00:57:15 mamach kernel: Freezing remaining freezable tasks[m
+Nov 26 00:57:15 mamach kernel: Freezing remaining freezable tasks completed (elapsed 0.001 seconds)[m
+Nov 26 00:57:15 mamach kernel: printk: Suspending console(s) (use no_console_suspend to debug)[m
+Nov 26 00:57:15 mamach kernel: bce_vhci: suspend started[m
+Nov 26 00:57:15 mamach kernel: bce_vhci: suspend endpoints[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbce-vhci: Not implemented: wait for pending output requests[0m[m
+Nov 26 00:57:15 mamach systemd-sleep[3624]: [0;1;31m[0;1;39m[0;1;31mFailed to put system to sleep. System resumed again: Input/output error[0m[m
+Nov 26 00:57:15 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:57:15 mamach kernel: bce_vhci: suspend ports[m
+Nov 26 00:57:15 mamach kernel: bce_vhci: suspend controller[m
+Nov 26 00:57:15 mamach kernel: bce_vhci: suspend done[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_set_mpc: fail to set mpc[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185maaudio aaudio: Failed to reset remote access[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_netdev_start_xmit: xmit rejected state=0[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: brcmf_pcie_pm_enter_D3: Timeout on response for entering D3 substate[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: pci_pm_suspend(): brcmf_pcie_pm_enter_D3 [brcmfmac] returns -5[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: dpm_run_callback(): pci_pm_suspend returns -5[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: failed to suspend async: error -5[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mPM: Some devices failed to suspend, or early wake event detected[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31maaudio_handle_reply: No queued item found for tag: S096[0m[m
+Nov 26 00:57:15 mamach kernel: bce_vhci: resume started[m
+Nov 26 00:57:15 mamach kernel: bce_vhci: resume controller[m
+Nov 26 00:57:15 mamach kernel: bce_vhci: resume ports[m
+Nov 26 00:57:15 mamach kernel: nvme nvme0: 1/0/0 default/read/poll queues[m
+Nov 26 00:57:15 mamach kernel: bce_vhci: resume endpoints[m
+Nov 26 00:57:15 mamach kernel: bce_vhci: resume done[m
+Nov 26 00:57:15 mamach kernel: mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])[m
+Nov 26 00:57:15 mamach kernel: OOM killer enabled.[m
+Nov 26 00:57:15 mamach kernel: Restarting tasks: Starting[m
+Nov 26 00:57:15 mamach kernel: Restarting tasks: Done[m
+Nov 26 00:57:15 mamach kernel: [0;1;39m[0;1;31m[0;1;39mrandom: crng reseeded on system resumption[0m[m
+Nov 26 00:57:15 mamach kernel: PM: suspend exit[m
+Nov 26 00:57:15 mamach systemd[1]: [0;1;39m[0;1;31m[0;1;39msystemd-suspend.service: Main process exited, code=exited, status=1/FAILURE[0m[m
+Nov 26 00:57:15 mamach systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185msystemd-suspend.service: Failed with result 'exit-code'.[0m[m
+Nov 26 00:57:15 mamach systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start System Suspend.[0m[m
+[7mlines 1492-1534[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:57:15 mamach systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mDependency failed for Suspend.[0m[m
+Nov 26 00:57:15 mamach systemd[1]: [0;1;39m[0;1;31m[0;1;39msuspend.target: Job suspend.target/start failed with result 'dependency'.[0m[m
+Nov 26 00:57:15 mamach systemd[1]: Stopped target Sleep.[m
+Nov 26 00:57:15 mamach systemd[1]: Starting NVIDIA system resume actions...[m
+Nov 26 00:57:15 mamach suspend[3683]: [0;1;39m[0;1;31m[0;1;39mnvidia-resume.service[0m[m
+Nov 26 00:57:15 mamach logger[3683]: <13>Nov 26 00:57:15 suspend: nvidia-resume.service[m
+Nov 26 00:57:15 mamach systemd[1]: nvidia-resume.service: Deactivated successfully.[m
+Nov 26 00:57:15 mamach systemd[1]: Finished NVIDIA system resume actions.[m
+Nov 26 00:57:15 mamach systemd-logind[760]: Operation 'suspend' finished.[m
+Nov 26 00:57:15 mamach systemd-resolved[583]: Closing all remaining TCP connections.[m
+Nov 26 00:57:15 mamach systemd-networkd[598]: enp116s0f1u1: Reconfiguring with /etc/systemd/network/20-ethernet.network.[m
+Nov 26 00:57:15 mamach systemd-resolved[583]: Resetting learnt feature levels on all servers.[m
+Nov 26 00:57:15 mamach systemd-networkd[598]: wlan0: Reconfiguring with /etc/systemd/network/20-wlan.network.[m
+Nov 26 00:57:15 mamach systemd-timesyncd[584]: Network configuration changed, trying to establish connection.[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+[7mlines 1535-1577[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:15 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[UFW BLOCK] IN=enp116s0f1u1 OUT= MAC= SRC=fe80:0000:0000:0000:aede:48ff:fe00:1122 DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=72 TC=0 HOPL[m[7m>[27m
+Nov 26 00:57:15 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[UFW BLOCK] IN=wlan0 OUT= MAC= SRC=fe80:0000:0000:0000:3e22:fbff:fe2b:3f6b DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=72 TC=0 HOPLIMIT=25[m[7m>[27m
+Nov 26 00:57:15 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[UFW BLOCK] IN=wlan0 OUT= MAC= SRC=192.168.1.6 DST=224.0.0.252 LEN=52 TOS=0x00 PREC=0x00 TTL=255 ID=12555 PROTO=UDP SPT=5355 DPT=5355 LEN=32 [0m[m
+Nov 26 00:57:18 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[UFW BLOCK] IN=wlan0 OUT= MAC= SRC=192.168.1.6 DST=224.0.0.252 LEN=52 TOS=0x00 PREC=0x00 TTL=255 ID=14354 PROTO=UDP SPT=5355 DPT=5355 LEN=32 [0m[m
+Nov 26 00:57:21 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set UDP instead of UDP+EDNS0 for DNS server 192.168.1.1.[0m[m
+Nov 26 00:57:24 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set UDP instead of UDP+EDNS0 for DNS server 240d:1a:17b:7400:ce1a:faff:fec9:37da.[0m[m
+Nov 26 00:57:27 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set TCP instead of UDP for DNS server 240d:1a:17b:7400:ce1a:faff:fec9:37da.[0m[m
+Nov 26 00:57:30 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set TCP instead of UDP for DNS server 192.168.1.1.[0m[m
+Nov 26 00:57:35 mamach systemd-logind[760]: Suspending...[m
+Nov 26 00:57:35 mamach systemd[1]: Reached target Sleep.[m
+Nov 26 00:57:35 mamach systemd[1]: Starting NVIDIA system suspend actions...[m
+Nov 26 00:57:35 mamach suspend[3706]: [0;1;39m[0;1;31m[0;1;39mnvidia-suspend.service[0m[m
+Nov 26 00:57:35 mamach logger[3706]: <13>Nov 26 00:57:35 suspend: nvidia-suspend.service[m
+Nov 26 00:57:35 mamach systemd[1]: nvidia-suspend.service: Deactivated successfully.[m
+Nov 26 00:57:35 mamach systemd[1]: Finished NVIDIA system suspend actions.[m
+Nov 26 00:57:35 mamach systemd[1]: Starting System Suspend...[m
+Nov 26 00:57:35 mamach systemd-sleep[3724]: [0;1;39m[0;1;31m[0;1;39mUser sessions remain unfrozen on explicit request ($SYSTEMD_SLEEP_FREEZE_USER_SESSIONS=0).[0m[m
+Nov 26 00:57:35 mamach systemd-sleep[3724]: [0;1;39m[0;1;31m[0;1;39mThis is not recommended, and might result in unexpected behavior, particularly[0m[m
+Nov 26 00:57:35 mamach systemd-sleep[3724]: [0;1;39m[0;1;31m[0;1;39min suspend-then-hibernate operations or setups with encrypted home directories.[0m[m
+Nov 26 00:57:35 mamach systemd-sleep[3724]: Performing sleep operation 'suspend'...[m
+Nov 26 00:57:35 mamach kernel: PM: suspend entry (deep)[m
+Nov 26 00:57:35 mamach kernel: Filesystems sync: 0.021 seconds[m
+Nov 26 00:57:41 mamach kernel: Freezing user space processes[m
+Nov 26 00:57:41 mamach kernel: Freezing user space processes completed (elapsed 0.001 seconds)[m
+Nov 26 00:57:41 mamach kernel: OOM killer disabled.[m
+Nov 26 00:57:41 mamach kernel: Freezing remaining freezable tasks[m
+Nov 26 00:57:41 mamach kernel: Freezing remaining freezable tasks completed (elapsed 0.000 seconds)[m
+Nov 26 00:57:41 mamach kernel: printk: Suspending console(s) (use no_console_suspend to debug)[m
+Nov 26 00:57:41 mamach kernel: bce_vhci: suspend started[m
+Nov 26 00:57:41 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:57:41 mamach kernel: bce_vhci: suspend endpoints[m
+Nov 26 00:57:41 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbce-vhci: Not implemented: wait for pending output requests[0m[m
+[7mlines 1578-1620[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:57:41 mamach kernel: bce_vhci: suspend ports[m
+Nov 26 00:57:41 mamach kernel: bce_vhci: suspend controller[m
+Nov 26 00:57:41 mamach kernel: bce_vhci: suspend done[m
+Nov 26 00:57:41 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:41 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_set_mpc: fail to set mpc[0m[m
+Nov 26 00:57:41 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:57:41 mamach systemd[1]: Starting Daily Cleanup of Snapper Snapshots...[m
+Nov 26 00:57:41 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: brcmf_pcie_pm_enter_D3: Timeout on response for entering D3 substate[0m[m
+Nov 26 00:57:41 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: pci_pm_suspend(): brcmf_pcie_pm_enter_D3 [brcmfmac] returns -5[0m[m
+Nov 26 00:57:41 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: dpm_run_callback(): pci_pm_suspend returns -5[0m[m
+Nov 26 00:57:41 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: failed to suspend async: error -5[0m[m
+Nov 26 00:57:41 mamach kernel: [0;1;31m[0;1;39m[0;1;31mPM: Some devices failed to suspend, or early wake event detected[0m[m
+Nov 26 00:57:41 mamach kernel: bce_vhci: resume started[m
+Nov 26 00:57:41 mamach kernel: bce_vhci: resume controller[m
+Nov 26 00:57:41 mamach kernel: nvme nvme0: 1/0/0 default/read/poll queues[m
+Nov 26 00:57:41 mamach kernel: bce_vhci: resume ports[m
+Nov 26 00:57:41 mamach kernel: bce_vhci: resume endpoints[m
+Nov 26 00:57:41 mamach kernel: bce_vhci: resume done[m
+Nov 26 00:57:41 mamach kernel: [0;1;31m[0;1;39m[0;1;31mBluetooth: hci0: command 0x0c01 tx timeout[0m[m
+Nov 26 00:57:41 mamach kernel: [0;1;31m[0;1;39m[0;1;31mBluetooth: hci0: Opcode 0x0c01 failed: -110[0m[m
+Nov 26 00:57:41 mamach kernel: mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])[m
+Nov 26 00:57:41 mamach kernel: OOM killer enabled.[m
+Nov 26 00:57:41 mamach kernel: Restarting tasks: Starting[m
+Nov 26 00:57:41 mamach kernel: Restarting tasks: Done[m
+Nov 26 00:57:41 mamach kernel: [0;1;39m[0;1;31m[0;1;39mrandom: crng reseeded on system resumption[0m[m
+Nov 26 00:57:41 mamach kernel: PM: suspend exit[m
+Nov 26 00:57:41 mamach kernel: PM: suspend entry (s2idle)[m
+Nov 26 00:57:41 mamach kernel: Filesystems sync: 0.022 seconds[m
+Nov 26 00:57:41 mamach systemd[1]: Started Daily Cleanup of Snapper Snapshots.[m
+Nov 26 00:57:41 mamach systemd[1]: Starting DBus interface for snapper...[m
+Nov 26 00:57:41 mamach systemd[1]: Started DBus interface for snapper.[m
+Nov 26 00:57:41 mamach systemd-helper[3761]: Running cleanup for 'home'.[m
+Nov 26 00:57:41 mamach systemd-helper[3761]: Running number cleanup for 'home'.[m
+Nov 26 00:57:41 mamach systemd-helper[3761]: Running timeline cleanup for 'home'.[m
+Nov 26 00:57:41 mamach systemd-helper[3761]: Running empty-pre-post cleanup for 'home'.[m
+Nov 26 00:57:41 mamach systemd-helper[3761]: Running cleanup for 'root'.[m
+Nov 26 00:57:41 mamach systemd-helper[3761]: Running number cleanup for 'root'.[m
+Nov 26 00:57:41 mamach systemd-helper[3761]: Running timeline cleanup for 'root'.[m
+Nov 26 00:57:41 mamach systemd-helper[3761]: Running empty-pre-post cleanup for 'root'.[m
+Nov 26 00:57:45 mamach kernel: Freezing user space processes[m
+Nov 26 00:57:45 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:57:45 mamach kernel: Freezing user space processes completed (elapsed 0.022 seconds)[m
+Nov 26 00:57:45 mamach kernel: OOM killer disabled.[m
+[7mlines 1621-1663[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:57:45 mamach kernel: Freezing remaining freezable tasks[m
+Nov 26 00:57:45 mamach kernel: Freezing remaining freezable tasks completed (elapsed 0.000 seconds)[m
+Nov 26 00:57:45 mamach kernel: printk: Suspending console(s) (use no_console_suspend to debug)[m
+Nov 26 00:57:45 mamach kernel: bce_vhci: suspend started[m
+Nov 26 00:57:45 mamach kernel: bce_vhci: suspend endpoints[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbce-vhci: Not implemented: wait for pending output requests[0m[m
+Nov 26 00:57:45 mamach kernel: bce_vhci: suspend ports[m
+Nov 26 00:57:45 mamach kernel: bce_vhci: suspend controller[m
+Nov 26 00:57:45 mamach kernel: bce_vhci: suspend done[m
+Nov 26 00:57:45 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185maaudio aaudio: Failed to reset remote access[0m[m
+Nov 26 00:57:45 mamach systemd-sleep[3724]: [0;1;31m[0;1;39m[0;1;31mFailed to put system to sleep. System resumed again: Input/output error[0m[m
+Nov 26 00:57:45 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_set_mpc: fail to set mpc[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_netdev_start_xmit: xmit rejected state=0[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: brcmf_pcie_pm_enter_D3: Timeout on response for entering D3 substate[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: pci_pm_suspend(): brcmf_pcie_pm_enter_D3 [brcmfmac] returns -5[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: dpm_run_callback(): pci_pm_suspend returns -5[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: failed to suspend async: error -5[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mPM: Some devices failed to suspend, or early wake event detected[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31maaudio_handle_reply: No queued item found for tag: S100[0m[m
+Nov 26 00:57:45 mamach kernel: nvme nvme0: 1/0/0 default/read/poll queues[m
+Nov 26 00:57:45 mamach kernel: bce_vhci: resume started[m
+Nov 26 00:57:45 mamach kernel: bce_vhci: resume controller[m
+Nov 26 00:57:45 mamach kernel: bce_vhci: resume ports[m
+Nov 26 00:57:45 mamach kernel: bce_vhci: resume endpoints[m
+Nov 26 00:57:45 mamach kernel: bce_vhci: resume done[m
+Nov 26 00:57:45 mamach kernel: mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])[m
+Nov 26 00:57:45 mamach kernel: OOM killer enabled.[m
+Nov 26 00:57:45 mamach kernel: Restarting tasks: Starting[m
+Nov 26 00:57:45 mamach kernel: Restarting tasks: Done[m
+Nov 26 00:57:45 mamach kernel: [0;1;39m[0;1;31m[0;1;39mrandom: crng reseeded on system resumption[0m[m
+Nov 26 00:57:45 mamach kernel: PM: suspend exit[m
+Nov 26 00:57:45 mamach systemd[1]: [0;1;39m[0;1;31m[0;1;39msystemd-suspend.service: Main process exited, code=exited, status=1/FAILURE[0m[m
+Nov 26 00:57:45 mamach systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185msystemd-suspend.service: Failed with result 'exit-code'.[0m[m
+Nov 26 00:57:45 mamach systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start System Suspend.[0m[m
+Nov 26 00:57:45 mamach systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mDependency failed for Suspend.[0m[m
+Nov 26 00:57:45 mamach systemd[1]: [0;1;39m[0;1;31m[0;1;39msuspend.target: Job suspend.target/start failed with result 'dependency'.[0m[m
+Nov 26 00:57:45 mamach systemd[1]: Stopped target Sleep.[m
+Nov 26 00:57:45 mamach systemd[1]: Starting NVIDIA system resume actions...[m
+Nov 26 00:57:45 mamach suspend[3832]: [0;1;39m[0;1;31m[0;1;39mnvidia-resume.service[0m[m
+Nov 26 00:57:45 mamach logger[3832]: <13>Nov 26 00:57:45 suspend: nvidia-resume.service[m
+Nov 26 00:57:45 mamach systemd[1]: nvidia-resume.service: Deactivated successfully.[m
+[7mlines 1664-1706[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:57:45 mamach systemd[1]: Finished NVIDIA system resume actions.[m
+Nov 26 00:57:45 mamach systemd-logind[760]: Operation 'suspend' finished.[m
+Nov 26 00:57:45 mamach systemd-resolved[583]: Closing all remaining TCP connections.[m
+Nov 26 00:57:45 mamach systemd-networkd[598]: enp116s0f1u1: Reconfiguring with /etc/systemd/network/20-ethernet.network.[m
+Nov 26 00:57:45 mamach systemd-resolved[583]: Resetting learnt feature levels on all servers.[m
+Nov 26 00:57:45 mamach systemd-networkd[598]: wlan0: Reconfiguring with /etc/systemd/network/20-wlan.network.[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[UFW BLOCK] IN=wlan0 OUT= MAC= SRC=fe80:0000:0000:0000:3e22:fbff:fe2b:3f6b DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=72 TC=0 HOPLIMIT=25[m[7m>[27m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+[7mlines 1707-1749[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:57:45 mamach systemd[1]: snapper-cleanup.service: Deactivated successfully.[m
+Nov 26 00:57:45 mamach systemd[1]: snapper-cleanup.service: Consumed 845ms CPU time, 119.2M memory peak.[m
+Nov 26 00:57:46 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[UFW BLOCK] IN=wlan0 OUT= MAC= SRC=192.168.1.6 DST=224.0.0.252 LEN=52 TOS=0x00 PREC=0x00 TTL=255 ID=39149 PROTO=UDP SPT=5355 DPT=5355 LEN=32 [0m[m
+Nov 26 00:57:51 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set UDP instead of UDP+EDNS0 for DNS server 240d:1a:17b:7400:ce1a:faff:fec9:37da.[0m[m
+Nov 26 00:57:54 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set UDP instead of UDP+EDNS0 for DNS server 192.168.1.1.[0m[m
+Nov 26 00:57:57 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set TCP instead of UDP for DNS server 192.168.1.1.[0m[m
+Nov 26 00:58:01 mamach systemd-resolved[583]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUsing degraded feature set TCP instead of UDP for DNS server 240d:1a:17b:7400:ce1a:faff:fec9:37da.[0m[m
+Nov 26 00:58:05 mamach systemd-logind[760]: Suspending...[m
+Nov 26 00:58:05 mamach systemd[1]: Reached target Sleep.[m
+Nov 26 00:58:05 mamach systemd[1]: Starting NVIDIA system suspend actions...[m
+Nov 26 00:58:05 mamach suspend[3865]: [0;1;39m[0;1;31m[0;1;39mnvidia-suspend.service[0m[m
+Nov 26 00:58:05 mamach logger[3865]: <13>Nov 26 00:58:05 suspend: nvidia-suspend.service[m
+Nov 26 00:58:05 mamach systemd[1]: nvidia-suspend.service: Deactivated successfully.[m
+Nov 26 00:58:05 mamach systemd[1]: Finished NVIDIA system suspend actions.[m
+Nov 26 00:58:05 mamach systemd[1]: Starting System Suspend...[m
+Nov 26 00:58:05 mamach systemd-sleep[3882]: [0;1;39m[0;1;31m[0;1;39mUser sessions remain unfrozen on explicit request ($SYSTEMD_SLEEP_FREEZE_USER_SESSIONS=0).[0m[m
+Nov 26 00:58:05 mamach systemd-sleep[3882]: [0;1;39m[0;1;31m[0;1;39mThis is not recommended, and might result in unexpected behavior, particularly[0m[m
+Nov 26 00:58:05 mamach systemd-sleep[3882]: [0;1;39m[0;1;31m[0;1;39min suspend-then-hibernate operations or setups with encrypted home directories.[0m[m
+Nov 26 00:58:05 mamach systemd-sleep[3882]: Performing sleep operation 'suspend'...[m
+Nov 26 00:58:05 mamach kernel: PM: suspend entry (deep)[m
+Nov 26 00:58:05 mamach kernel: Filesystems sync: 0.024 seconds[m
+Nov 26 00:58:42 mamach kernel: Freezing user space processes[m
+Nov 26 00:58:42 mamach kernel: Freezing user space processes completed (elapsed 0.001 seconds)[m
+Nov 26 00:58:42 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:58:42 mamach kernel: OOM killer disabled.[m
+Nov 26 00:58:42 mamach systemd-networkd[598]: enp116s0f1u1: Link DOWN[m
+Nov 26 00:58:42 mamach rtkit-daemon[1471]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mThe canary thread is apparently starving. Taking action.[0m[m
+Nov 26 00:58:42 mamach kernel: Freezing remaining freezable tasks[m
+Nov 26 00:58:42 mamach systemd-networkd[598]: enp116s0f1u1: Lost carrier[m
+Nov 26 00:58:42 mamach rtkit-daemon[1471]: Demoting known real-time threads.[m
+Nov 26 00:58:42 mamach kernel: Freezing remaining freezable tasks completed (elapsed 0.001 seconds)[m
+[7mlines 1750-1792[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:58:42 mamach rtkit-daemon[1471]: [0;1;39m[0;1;31m[0;1;39mSuccessfully demoted thread 1601 of process 1588.[0m[m
+Nov 26 00:58:42 mamach kernel: printk: Suspending console(s) (use no_console_suspend to debug)[m
+Nov 26 00:58:42 mamach rtkit-daemon[1471]: [0;1;39m[0;1;31m[0;1;39mSuccessfully demoted thread 1588 of process 1588.[0m[m
+Nov 26 00:58:42 mamach kernel: bce_vhci: suspend started[m
+Nov 26 00:58:42 mamach rtkit-daemon[1471]: [0;1;39m[0;1;31m[0;1;39mSuccessfully demoted thread 1487 of process 1476.[0m[m
+Nov 26 00:58:42 mamach kernel: bce_vhci: suspend endpoints[m
+Nov 26 00:58:42 mamach rtkit-daemon[1471]: [0;1;39m[0;1;31m[0;1;39mSuccessfully demoted thread 1476 of process 1476.[0m[m
+Nov 26 00:58:42 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbce-vhci: Not implemented: wait for pending output requests[0m[m
+Nov 26 00:58:42 mamach rtkit-daemon[1471]: [0;1;39m[0;1;31m[0;1;39mSuccessfully demoted thread 1478 of process 1475.[0m[m
+Nov 26 00:58:42 mamach kernel: bce_vhci: suspend ports[m
+Nov 26 00:58:42 mamach rtkit-daemon[1471]: [0;1;39m[0;1;31m[0;1;39mSuccessfully demoted thread 1475 of process 1475.[0m[m
+Nov 26 00:58:42 mamach kernel: bce_vhci: suspend controller[m
+Nov 26 00:58:42 mamach rtkit-daemon[1471]: [0;1;39m[0;1;31m[0;1;39mDemoted 6 threads.[0m[m
+Nov 26 00:58:42 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:58:42 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:58:42 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_set_mpc: fail to set mpc[0m[m
+Nov 26 00:58:42 mamach avahi-daemon[753]: Interface enp116s0f1u1.IPv6 no longer relevant for mDNS.[m
+Nov 26 00:58:42 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: brcmf_pcie_pm_enter_D3: Timeout on response for entering D3 substate[0m[m
+Nov 26 00:58:42 mamach avahi-daemon[753]: Leaving mDNS multicast group on interface enp116s0f1u1.IPv6 with address fe80::aede:48ff:fe00:1122.[m
+Nov 26 00:58:42 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: pci_pm_suspend(): brcmf_pcie_pm_enter_D3 [brcmfmac] returns -5[0m[m
+Nov 26 00:58:42 mamach avahi-daemon[753]: Withdrawing address record for fe80::aede:48ff:fe00:1122 on enp116s0f1u1.[m
+Nov 26 00:58:42 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: dpm_run_callback(): pci_pm_suspend returns -5[0m[m
+Nov 26 00:58:42 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbrcmfmac 0000:73:00.0: PM: failed to suspend async: error -5[0m[m
+Nov 26 00:58:42 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbce-vhci: waiting for queue to be flushed timed out[0m[m
+Nov 26 00:58:42 mamach kernel: bce_vhci: suspend done[m
+Nov 26 00:58:42 mamach kernel: [0;1;31m[0;1;39m[0;1;31mPM: Some devices failed to suspend, or early wake event detected[0m[m
+Nov 26 00:58:42 mamach kernel: bce_vhci: resume started[m
+Nov 26 00:58:42 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbce-vhci: resume of a queue with pending submissions[0m[m
+Nov 26 00:58:42 mamach kernel: bce_vhci: resume controller[m
+Nov 26 00:58:42 mamach kernel: nvme nvme0: 1/0/0 default/read/poll queues[m
+Nov 26 00:58:42 mamach kernel: [0;1;31m[0;1;39m[0;1;31maaudio aaudio: Failed to set remote access[0m[m
+Nov 26 00:58:42 mamach kernel: [0;1;31m[0;1;39m[0;1;31maaudio 0000:74:00.3: PM: dpm_run_callback(): pci_pm_resume returns -110[0m[m
+Nov 26 00:58:42 mamach kernel: [0;1;31m[0;1;39m[0;1;31maaudio 0000:74:00.3: PM: failed to resume async: error -110[0m[m
+Nov 26 00:58:42 mamach kernel: [0;1;31m[0;1;39m[0;1;31mBluetooth: hci0: command 0x0c01 tx timeout[0m[m
+Nov 26 00:58:42 mamach kernel: [0;1;31m[0;1;39m[0;1;31mBluetooth: hci0: Opcode 0x0c01 failed: -110[0m[m
+Nov 26 00:58:42 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbce-vhci: Possible desync, cmd cancel timed out[0m[m
+Nov 26 00:58:42 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbce-vhci bce-vhci: HC died; cleaning up[0m[m
+Nov 26 00:58:42 mamach kernel: [0;1;31m[0;1;39m[0;1;31musb usb5: PM: dpm_run_callback(): usb_dev_resume returns -110[0m[m
+Nov 26 00:58:42 mamach kernel: [0;1;31m[0;1;39m[0;1;31musb usb5: PM: failed to resume async: error -110[0m[m
+Nov 26 00:58:42 mamach kernel: OOM killer enabled.[m
+Nov 26 00:58:42 mamach kernel: Restarting tasks: Starting[m
+Nov 26 00:58:42 mamach kernel: mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])[m
+Nov 26 00:58:42 mamach kernel: usb 5-1: USB disconnect, device number 2[m
+[7mlines 1793-1835[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:58:42 mamach kernel: cdc_ncm 5-1:1.0 enp116s0f1u1: unregister 'cdc_ncm' usb-bce-vhci-1, CDC NCM (NO ZLP)[m
+Nov 26 00:58:42 mamach kernel: Restarting tasks: Done[m
+Nov 26 00:58:42 mamach kernel: [0;1;39m[0;1;31m[0;1;39mrandom: crng reseeded on system resumption[0m[m
+Nov 26 00:58:42 mamach kernel: PM: suspend exit[m
+Nov 26 00:58:42 mamach kernel: PM: suspend entry (s2idle)[m
+Nov 26 00:58:42 mamach kernel: bce_vhci_drop_endpoint 1:1[m
+Nov 26 00:58:42 mamach kernel: Filesystems sync: 0.024 seconds[m
+Nov 26 00:59:02 mamach kernel: Freezing user space processes[m
+Nov 26 00:59:02 mamach kernel: Freezing user space processes completed (elapsed 0.015 seconds)[m
+Nov 26 00:59:02 mamach kernel: OOM killer disabled.[m
+Nov 26 00:59:02 mamach rtkit-daemon[1471]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mThe canary thread is apparently starving. Taking action.[0m[m
+Nov 26 00:59:02 mamach kernel: Freezing remaining freezable tasks[m
+Nov 26 00:59:02 mamach rtkit-daemon[1471]: Demoting known real-time threads.[m
+Nov 26 00:59:02 mamach kernel: [0;1;31m[0;1;39m[0;1;31mbce-vhci: Possible desync, cmd cancel timed out[0m[m
+Nov 26 00:59:02 mamach rtkit-daemon[1471]: [0;1;39m[0;1;31m[0;1;39mSuccessfully demoted thread 1601 of process 1588.[0m[m
+Nov 26 00:59:02 mamach kernel: [0;1;31m[0;1;39m[0;1;31mFreezing remaining freezable tasks failed after 20.001 seconds (0 tasks refusing to freeze, wq_busy=1):[0m[m
+Nov 26 00:59:02 mamach rtkit-daemon[1471]: [0;1;39m[0;1;31m[0;1;39mSuccessfully demoted thread 1588 of process 1588.[0m[m
+Nov 26 00:59:02 mamach kernel: Showing freezable workqueues that are still busy:[m
+Nov 26 00:59:02 mamach rtkit-daemon[1471]: [0;1;39m[0;1;31m[0;1;39mSuccessfully demoted thread 1487 of process 1476.[0m[m
+Nov 26 00:59:02 mamach kernel: workqueue events_freezable: flags=0x4[m
+Nov 26 00:59:02 mamach rtkit-daemon[1471]: [0;1;39m[0;1;31m[0;1;39mSuccessfully demoted thread 1476 of process 1476.[0m[m
+Nov 26 00:59:02 mamach kernel:   pwq 26: cpus=6 node=0 flags=0x0 nice=0 active=0 refcnt=2[m
+Nov 26 00:59:02 mamach rtkit-daemon[1471]: [0;1;39m[0;1;31m[0;1;39mSuccessfully demoted thread 1478 of process 1475.[0m[m
+Nov 26 00:59:02 mamach kernel:     inactive: pci_pme_list_scan[m
+Nov 26 00:59:02 mamach rtkit-daemon[1471]: [0;1;39m[0;1;31m[0;1;39mSuccessfully demoted thread 1475 of process 1475.[0m[m
+Nov 26 00:59:02 mamach kernel: workqueue pm: flags=0x4[m
+Nov 26 00:59:02 mamach rtkit-daemon[1471]: [0;1;39m[0;1;31m[0;1;39mDemoted 6 threads.[0m[m
+Nov 26 00:59:02 mamach kernel:   pwq 26: cpus=6 node=0 flags=0x0 nice=0 active=0 refcnt=2[m
+Nov 26 00:59:02 mamach kernel:     inactive: pm_runtime_work[m
+Nov 26 00:59:02 mamach kernel: workqueue usb_hub_wq: flags=0x4[m
+Nov 26 00:59:02 mamach kernel:   pwq 22: cpus=5 node=0 flags=0x0 nice=0 active=1 refcnt=2[m
+Nov 26 00:59:02 mamach kernel:     in-flight: 107:hub_event[m
+Nov 26 00:59:02 mamach kernel: Restarting kernel threads ...[m
+Nov 26 00:59:02 mamach kernel: Done restarting kernel threads.[m
+Nov 26 00:59:02 mamach kernel: OOM killer enabled.[m
+Nov 26 00:59:02 mamach kernel: Restarting tasks: Starting[m
+Nov 26 00:59:02 mamach kernel: Restarting tasks: Done[m
+Nov 26 00:59:02 mamach kernel: [0;1;39m[0;1;31m[0;1;39mrandom: crng reseeded on system resumption[0m[m
+Nov 26 00:59:02 mamach systemd[1]: snapperd.service: Deactivated successfully.[m
+Nov 26 00:59:04 mamach systemd-sleep[3882]: [0;1;31m[0;1;39m[0;1;31mFailed to put system to sleep. System resumed again: Input/output error[0m[m
+Nov 26 00:59:04 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mBluetooth: hci0: command 0x0c01 tx timeout[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mBluetooth: hci0: Opcode 0x0c01 failed: -110[0m[m
+[7mlines 1836-1878[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:59:04 mamach kernel: PM: suspend exit[m
+Nov 26 00:59:04 mamach systemd[1]: [0;1;39m[0;1;31m[0;1;39msystemd-suspend.service: Main process exited, code=exited, status=1/FAILURE[0m[m
+Nov 26 00:59:04 mamach systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185msystemd-suspend.service: Failed with result 'exit-code'.[0m[m
+Nov 26 00:59:04 mamach systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start System Suspend.[0m[m
+Nov 26 00:59:04 mamach systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mDependency failed for Suspend.[0m[m
+Nov 26 00:59:04 mamach systemd[1]: [0;1;39m[0;1;31m[0;1;39msuspend.target: Job suspend.target/start failed with result 'dependency'.[0m[m
+Nov 26 00:59:04 mamach systemd[1]: Stopped target Sleep.[m
+Nov 26 00:59:04 mamach systemd[1]: Starting NVIDIA system resume actions...[m
+Nov 26 00:59:04 mamach suspend[3952]: [0;1;39m[0;1;31m[0;1;39mnvidia-resume.service[0m[m
+Nov 26 00:59:04 mamach logger[3952]: <13>Nov 26 00:59:04 suspend: nvidia-resume.service[m
+Nov 26 00:59:04 mamach systemd[1]: nvidia-resume.service: Deactivated successfully.[m
+Nov 26 00:59:04 mamach systemd[1]: Finished NVIDIA system resume actions.[m
+Nov 26 00:59:04 mamach systemd-logind[760]: Operation 'suspend' finished.[m
+Nov 26 00:59:04 mamach systemd-resolved[583]: Closing all remaining TCP connections.[m
+Nov 26 00:59:04 mamach systemd-networkd[598]: wlan0: Reconfiguring with /etc/systemd/network/20-wlan.network.[m
+Nov 26 00:59:04 mamach systemd-resolved[583]: Resetting learnt feature levels on all servers.[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:59:04 mamach systemd-logind[760]: Suspending...[m
+Nov 26 00:59:04 mamach upowerd[1180]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mCould not acquire inhibitor lock: GDBus.Error:org.freedesktop.login1.OperationInProgress: The operation inhibition has been requested f[m[7m>[27m
+Nov 26 00:59:04 mamach systemd[1]: Reached target Sleep.[m
+Nov 26 00:59:04 mamach systemd[1]: Starting NVIDIA system suspend actions...[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+[7mlines 1879-1921[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting mcast_list failed, -12[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:59:04 mamach logger[3963]: <13>Nov 26 00:59:04 suspend: nvidia-suspend.service[m
+Nov 26 00:59:04 mamach suspend[3963]: [0;1;39m[0;1;31m[0;1;39mnvidia-suspend.service[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting allmulti failed, -12[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, err=-12[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:59:04 mamach kernel: [0;1;31m[0;1;39m[0;1;31mieee80211 phy0: brcmf_msgbuf_tx_ioctl: Failed to reserve space in commonring[0m[m
+Nov 26 00:59:04 mamach systemd[1]: nvidia-suspend.service: Deactivated successfully.[m
+Nov 26 00:59:04 mamach systemd[1]: Finished NVIDIA system suspend actions.[m
+Nov 26 00:59:04 mamach systemd[1]: Starting System Suspend...[m
+Nov 26 00:59:04 mamach systemd-sleep[3982]: [0;1;39m[0;1;31m[0;1;39mUser sessions remain unfrozen on explicit request ($SYSTEMD_SLEEP_FREEZE_USER_SESSIONS=0).[0m[m
+Nov 26 00:59:04 mamach systemd-sleep[3982]: [0;1;39m[0;1;31m[0;1;39mThis is not recommended, and might result in unexpected behavior, particularly[0m[m
+Nov 26 00:59:04 mamach systemd-sleep[3982]: [0;1;39m[0;1;31m[0;1;39min suspend-then-hibernate operations or setups with encrypted home directories.[0m[m
+Nov 26 00:59:04 mamach systemd-sleep[3982]: Performing sleep operation 'suspend'...[m
+Nov 26 00:59:04 mamach kernel: PM: suspend entry (deep)[m
+Nov 26 00:59:24 mamach kernel: Filesystems sync: 0.022 seconds[m
+Nov 26 00:59:24 mamach systemd-logind[760]: Lid opened.[m
+Nov 26 00:59:24 mamach rtkit-daemon[1471]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mThe canary thread is apparently starving. Taking action.[0m[m
+Nov 26 00:59:24 mamach kernel: Freezing user space processes[m
+Nov 26 00:59:24 mamach rtkit-daemon[1471]: Demoting known real-time threads.[m
+Nov 26 00:59:24 mamach kernel: Freezing user space processes completed (elapsed 0.001 seconds)[m
+Nov 26 00:59:24 mamach rtkit-daemon[1471]: [0;1;39m[0;1;31m[0;1;39mSuccessfully demoted thread 1601 of process 1588.[0m[m
+Nov 26 00:59:24 mamach kernel: OOM killer disabled.[m
+Nov 26 00:59:24 mamach rtkit-daemon[1471]: [0;1;39m[0;1;31m[0;1;39mSuccessfully demoted thread 1588 of process 1588.[0m[m
+Nov 26 00:59:24 mamach kernel: Freezing remaining freezable tasks[m
+Nov 26 00:59:24 mamach rtkit-daemon[1471]: [0;1;39m[0;1;31m[0;1;39mSuccessfully demoted thread 1487 of process 1476.[0m[m
+Nov 26 00:59:24 mamach kernel: [0;1;31m[0;1;39m[0;1;31mFreezing remaining freezable tasks failed after 20.008 seconds (0 tasks refusing to freeze, wq_busy=1):[0m[m
+Nov 26 00:59:24 mamach rtkit-daemon[1471]: [0;1;39m[0;1;31m[0;1;39mSuccessfully demoted thread 1476 of process 1476.[0m[m
+Nov 26 00:59:24 mamach kernel: Showing freezable workqueues that are still busy:[m
+Nov 26 00:59:24 mamach rtkit-daemon[1471]: [0;1;39m[0;1;31m[0;1;39mSuccessfully demoted thread 1478 of process 1475.[0m[m
+Nov 26 00:59:24 mamach kernel: workqueue events_freezable: flags=0x4[m
+Nov 26 00:59:24 mamach rtkit-daemon[1471]: [0;1;39m[0;1;31m[0;1;39mSuccessfully demoted thread 1475 of process 1475.[0m[m
+Nov 26 00:59:24 mamach kernel:   pwq 6: cpus=1 node=0 flags=0x0 nice=0 active=0 refcnt=2[m
+Nov 26 00:59:24 mamach rtkit-daemon[1471]: [0;1;39m[0;1;31m[0;1;39mDemoted 6 threads.[0m[m
+Nov 26 00:59:24 mamach kernel:     inactive: pci_pme_list_scan[m
+Nov 26 00:59:24 mamach kernel: workqueue events_freezable_pwr_efficient: flags=0x86[m
+Nov 26 00:59:24 mamach kernel:   pwq 32: cpus=0-7 flags=0x4 nice=0 active=0 refcnt=2[m
+Nov 26 00:59:24 mamach kernel:     inactive: sync_hw_clock[m
+Nov 26 00:59:24 mamach kernel: workqueue usb_hub_wq: flags=0x4[m
+[7mlines 1922-1964[27m[K[K [KESCESC[K[[[K66[K~~[KNov 26 00:59:24 mamach kernel:   pwq 22: cpus=5 node=0 flags=0x0 nice=0 active=1 refcnt=2[m
+Nov 26 00:59:24 mamach kernel:     in-flight: 107:hub_event[m
+Nov 26 00:59:24 mamach kernel: Restarting kernel threads ...[m
+Nov 26 00:59:24 mamach kernel: Done restarting kernel threads.[m
+Nov 26 00:59:24 mamach kernel: OOM killer enabled.[m
+Nov 26 00:59:24 mamach kernel: Restarting tasks: Starting[m
+Nov 26 00:59:24 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[UFW BLOCK] IN=wlan0 OUT= MAC= SRC=192.168.1.6 DST=224.0.0.252 LEN=52 TOS=0x00 PREC=0x00 TTL=255 ID=53105 PROTO=UDP SPT=5355 DPT=5355 LEN=32 [0m[m
+Nov 26 00:59:24 mamach kernel: Restarting tasks: Done[m
+Nov 26 00:59:24 mamach kernel: [0;1;39m[0;1;31m[0;1;39mrandom: crng reseeded on system resumption[0m[m
+Nov 26 00:59:24 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[UFW BLOCK] IN=wlan0 OUT= MAC= SRC=fe80:0000:0000:0000:3e22:fbff:fe2b:3f6b DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=72 TC=0 HOPLIMIT=25[m[7m>[27m
+Nov 26 00:59:26 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[UFW BLOCK] IN=wlan0 OUT= MAC= SRC=192.168.1.6 DST=224.0.0.252 LEN=52 TOS=0x00 PREC=0x00 TTL=255 ID=53698 PROTO=UDP SPT=5355 DPT=5355 LEN=32 [0m[m
+Nov 26 00:59:26 mamach kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[UFW BLOCK] IN=wlan0 OUT= MAC= SRC=fe80:0000:0000:0000:3e22:fbff:fe2b:3f6b DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=72 TC=0 HOPLIMIT=25[m[7m>[27m
+Nov 26 00:59:26 mamach bluetoothd[754]: Controller resume with wake event 0x0[m
+Nov 26 00:59:26 mamach kernel: [0;1;31m[0;1;39m[0;1;31mBluetooth: hci0: Opcode 0x0c01 failed: -110[0m[m
+Nov 26 00:59:26 mamach kernel: [0;1;31m[0;1;39m[0;1;31mBluetooth: hci0: command 0x0c01 tx timeout[0m[m
+Nov 26 00:59:26 mamach kernel: PM: suspend exit[m
+Nov 26 00:59:26 mamach kernel: PM: suspend entry (s2idle)[m
+Nov 26 00:59:26 mamach kernel: Filesystems sync: 0.024 seconds[m
+Nov 26 00:59:46 mamach kernel: Freezing user space processes[m
+[0;1;39m-- Boot 0ce1b570f03b492b9499283043ae15a5 --[0m[m
+Nov 26 01:02:36 mamach kernel: [0;1;39m[0;1;31m[0;1;39mLinux version 6.17.7-arch1-Watanare-T2-1-t2 (renakoamaori@There-s-No-Freaking-Way-I-ll-Be-Your-Lover-Unless) (gcc (GCC) 15.2.1 20250813, GNU l[m[7m>[27m
+Nov 26 01:02:36 mamach kernel: Command line: quiet splash cryptdevice=PARTUUID=1fd3dbf7-16c3-4ce0-85a5-adfeb70f5000:root root=/dev/mapper/root zswap.enabled=0 rootflags=subv[m[7m>[27m
+Nov 26 01:02:36 mamach kernel: x86/split lock detection: #AC: crashing the kernel on kernel split_locks and warning on user-space split_locks[m
+Nov 26 01:02:36 mamach kernel: BIOS-provided physical RAM map:[m
+Nov 26 01:02:36 mamach kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009efff] usable[m
+Nov 26 01:02:36 mamach kernel: BIOS-e820: [mem 0x000000000009f000-0x00000000000fffff] reserved[m
+Nov 26 01:02:36 mamach kernel: BIOS-e820: [mem 0x0000000000100000-0x00000000605b2fff] usable[m
+Nov 26 01:02:36 mamach kernel: BIOS-e820: [mem 0x00000000605b3000-0x0000000060732fff] reserved[m
+Nov 26 01:02:36 mamach kernel: BIOS-e820: [mem 0x0000000060733000-0x0000000061234fff] usable[m
+Nov 26 01:02:36 mamach kernel: BIOS-e820: [mem 0x0000000061235000-0x0000000061235fff] ACPI NVS[m
+Nov 26 01:02:36 mamach kernel: BIOS-e820: [mem 0x0000000061236000-0x0000000061236fff] reserved[m
+Nov 26 01:02:36 mamach kernel: BIOS-e820: [mem 0x0000000061237000-0x000000006157dfff] usable[m
+Nov 26 01:02:36 mamach kernel: BIOS-e820: [mem 0x000000006157e000-0x000000006157efff] reserved[m
+Nov 26 01:02:36 mamach kernel: BIOS-e820: [mem 0x000000006157f000-0x0000000073c7efff] usable[m
+Nov 26 01:02:36 mamach kernel: BIOS-e820: [mem 0x0000000073c7f000-0x0000000073f4efff] reserved[m
+Nov 26 01:02:36 mamach kernel: BIOS-e820: [mem 0x0000000073f4f000-0x0000000073f9efff] ACPI NVS[m
+Nov 26 01:02:36 mamach kernel: BIOS-e820: [mem 0x0000000073f9f000-0x0000000073ffefff] ACPI data[m
+Nov 26 01:02:36 mamach kernel: BIOS-e820: [mem 0x0000000073fff000-0x0000000073ffffff] usable[m
+Nov 26 01:02:36 mamach kernel: BIOS-e820: [mem 0x0000000074000000-0x0000000077ffffff] reserved[m
+Nov 26 01:02:36 mamach kernel: BIOS-e820: [mem 0x0000000078e00000-0x000000007fffffff] reserved[m
+Nov 26 01:02:36 mamach kernel: BIOS-e820: [mem 0x00000000e0000000-0x00000000efffffff] reserved[m
+Nov 26 01:02:36 mamach kernel: BIOS-e820: [mem 0x00000000fe010000-0x00000000fe010fff] reserved[m
+Nov 26 01:02:36 mamach kernel: BIOS-e820: [mem 0x00000000fed20000-0x00000000fed7ffff] reserved[m
