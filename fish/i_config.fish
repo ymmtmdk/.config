@@ -3,7 +3,7 @@ set -x EDITOR (which nvim)
 set -x SHELL (which fish)
 
 source ~/.config/fish/aliases.fish
-source ~/.local/share/alt-z/az.fish
+# source ~/.local/share/alt-z/az.fish
 
 function init_starship
   if test (uname) = Darwin
