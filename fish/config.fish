@@ -1,26 +1,13 @@
-set -gx HOMEBREW_PREFIX "/usr/local";
-set -gx HOMEBREW_CELLAR "/usr/local/Cellar";
-set -gx HOMEBREW_REPOSITORY "/usr/local/Homebrew";
-
-set --local os (command uname -s | string lower)
-
-! set -q PATH; and set PATH ''; 
-set -gx PATH "/usr/local/bin" "/usr/local/sbin" "/usr/local/opt/ruby/bin" "$HOME/bin" "$HOME/.config/bin" "$HOME/.config/bin/$os" $PATH;
-! set -q MANPATH; and set MANPATH '';
-set -gx MANPATH "/usr/local/share/man" $MANPATH;
-! set -q INFOPATH; and set INFOPATH '';
-set -gx INFOPATH "/usr/local/share/info" $INFOPATH;
-
-set -gx CFLAGS "$CFLAGS -I/usr/local/include"
-set -gx CXXFLAGS "$CXXFLAGS -I/usr/local/include"
-
-set -gx VCPKG_ROOT "$HOME/vcpkg"
-
-# set -gx JAVA_HOME (/usr/libexec/java_home)
+set -x PATH /home/ymmtmdk/.local/bin $PATH
 
 if status is-interactive
-  # if not set -q VSCODE_INJECTION
-    source ~/.config/fish/i_config.fish
-  # end
+    # Commands to run in interactive sessions can go here
+    source ~/github/.config/fish/aliases.fish
+    source (/usr/bin/starship init fish --print-full-init | psub)
+    source /home/ymmtmdk/.local/share/alt-z/az.fish
+    # bind ctrl-r fzf_select_fish_history
+    bind \x1e 'cd ..; and commandline -f repaint'
+    bind ctrl-comma prevd-or-backward-word
+    # C-.
+    bind ctrl-. nextd-or-forward-word
 end
-
