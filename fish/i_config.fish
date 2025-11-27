@@ -21,12 +21,6 @@ if not set -q VSCODE_INJECTION
   source ~/.local/share/nvim/lazy/tokyonight.nvim/extras/fish/tokyonight_moon.fish
 end
 
-# nvm
-if set --query nvm_default_version && set --query nvm_current_version
-  _nvm_version_deactivate $nvm_current_version
-  nvm use --silent $nvm_default_version
-end
-
 function fish_user_key_bindings
   # C-^
   bind \x1e 'cd ..; and commandline -f repaint'
@@ -40,8 +34,6 @@ function fish_user_key_bindings
   bind \cd delete-char
   bind \cs forward-kill-word
   bind \cs kill-word
-  # bind \cx 'peco_kill (commandline)'
-  # bind \cq 'peco_nvimbuf (commandline)'
 end
 
 function fish_title

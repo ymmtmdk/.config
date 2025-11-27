@@ -20,9 +20,17 @@ brew install starship mise neovim fish fzf karabiner-elements google-chrome brav
 # touch id for sudo
 # sed -e 's/^#auth/auth/' /etc/pam.d/sudo_local.template | sudo tee /etc/pam.d/sudo_local
 
+# off spotlight
+# sudo mdutil -a -i off
+
 # drag
 defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true
 
 # KeyRepeat
 defaults write -g KeyRepeat -int 2
 defaults write -g InitialKeyRepeat -int 15
+
+mise use -g rust
+mise use -g python
+mise use -g node
+
