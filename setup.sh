@@ -34,3 +34,6 @@ mise use -g rust
 mise use -g python
 mise use -g node
 
+# for ruby
+brew install openssl@3 readline libyaml gmp autoconf
+mise use -g ruby
