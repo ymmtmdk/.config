@@ -5,7 +5,8 @@ set -gx HOMEBREW_REPOSITORY "/usr/local/Homebrew";
 set --local os (command uname -s | string lower)
 
 ! set -q PATH; and set PATH ''; 
-set -gx PATH "/usr/local/bin" "/usr/local/sbin" "/usr/local/opt/ruby/bin" "$HOME/bin" "$HOME/.config/bin" "$HOME/.config/bin/$os" "$HOME/.local/bin" $PATH;
+set -gx PATH "/usr/local/bin" "/usr/local/sbin" "$HOME/bin" "$HOME/.config/bin" "$HOME/.config/bin/$os" "$HOME/.local/bin" "$HOME/Library/Android/sdk/platform-tools/" $PATH;
+
 ! set -q MANPATH; and set MANPATH '';
 set -gx MANPATH "/usr/local/share/man" $MANPATH;
 ! set -q INFOPATH; and set INFOPATH '';
