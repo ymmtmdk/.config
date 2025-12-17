@@ -4,8 +4,9 @@ set -gx HOMEBREW_REPOSITORY "/usr/local/Homebrew";
 
 set --local os (command uname -s | string lower)
 
+set -gx JAVA_HOME /usr/lib/jvm/java-17-openjdk-amd64
 ! set -q PATH; and set PATH ''; 
-set -gx PATH "/usr/local/bin" "/usr/local/sbin" "$HOME/bin" "$HOME/.config/bin" "$HOME/.config/bin/$os" "$HOME/.local/bin" "$HOME/Library/Android/sdk/platform-tools/" $PATH;
+set -gx PATH "/usr/local/bin" "/usr/local/sbin" "$HOME/bin" "$HOME/.config/bin" "$HOME/.config/bin/$os" "$HOME/.local/bin" "$HOME/Library/Android/sdk/platform-tools/" $JAVA_HOME/bin $PATH;
 
 ! set -q MANPATH; and set MANPATH '';
 set -gx MANPATH "/usr/local/share/man" $MANPATH;
@@ -19,6 +20,12 @@ set -gx VCPKG_ROOT "$HOME/vcpkg"
 
 # set -gx JAVA_HOME (/usr/libexec/java_home)
 
+# ====== Antigravity Launcher Config ======
+set -gx PATH $HOME/.local/bin $PATH
+# ====== End of Antigravity Launcher Config ======
+
+source ~/.safe-chain/scripts/init-fish.fish # Safe-chain Fish initialization script
+
 if status is-interactive
   # if not set -q VSCODE_INJECTION
     source ~/.config/fish/i_config.fish
@@ -26,6 +33,3 @@ if status is-interactive
 end
 
 
-# ====== Antigravity Launcher Config ======
-set -gx PATH $HOME/.local/bin $PATH
-# ====== End of Antigravity Launcher Config ======
