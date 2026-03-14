@@ -30,6 +30,23 @@ defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool t
 defaults write -g KeyRepeat -int 2
 defaults write -g InitialKeyRepeat -int 15
 
+# cap lock for jp/en
+defaults write -g TISRomanSwitchState -int 1
+
+# disable smart quote
+defaults write -g NSAutomaticDashSubstitutionEnabled -int 0
+defaults write -g NSAutomaticQuoteSubstitutionEnabled -int 0
+
+# set IME prop
+defaults write com.apple.inputmethod.Kotoeri JIMPrefCharacterForSlashKey -int 0
+defaults write com.apple.inputmethod.Kotoeri JIMPrefCharacterForYenKey -int 1
+defaults write com.apple.inputmethod.Kotoeri JIMPrefFullWidthNumeralCharactersKey -int 0
+defaults write com.apple.inputmethod.Kotoeri JIMPrefPunctuationTypeKey -int 0
+defaults write com.apple.DuetExpertCenter.AppPredictionExpert "ATXUpdatePredictionsLoggerCountsDictionary-ActionPredictions" \
+-dict "TRIGGER_TYPE_APPLAUNCH" -int 5 \
+      "TRIGGER_TYPE_CTS" -int 5 \
+      "TRIGGER_TYPE_TOTAL" -int 10
+
 mise use -g rust
 mise use -g python
 mise use -g node
