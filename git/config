@@ -20,8 +20,6 @@
 
 [credential]
   helper = /Users/ymmtmdk/.config/bin/credential-helper
-	helper = 
-	helper = /usr/local/share/gcm-core/git-credential-manager
 
 [pull]
 	rebase = true
