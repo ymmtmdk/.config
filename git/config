@@ -27,4 +27,3 @@
 	defaultBranch = main
 [credential "https://dev.azure.com"]
 	useHttpPath = true
-

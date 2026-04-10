@@ -5,7 +5,7 @@ set -x SHELL (which fish)
 source ~/.config/fish/aliases.fish
 # source ~/.local/share/alt-z/az.fish
 
-source ~/code/cliconf/scripts/cliconf_integrate.fish
+# source ~/code/cliconf/scripts/cliconf_integrate.fish
 
 function init_starship
   if test (uname) = Darwin
