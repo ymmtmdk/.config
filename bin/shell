@@ -1,0 +1,12 @@
+#!/bin/sh
+
+if command -v fish >/dev/null 2>&1; then
+    exec fish "$@"
+elif command -v zsh >/dev/null 2>&1; then
+    exec zsh "$@"
+elif command -v bash >/dev/null 2>&1; then
+    exec bash "$@"
+else
+    echo "Warning: fish, zsh, bash not found. Falling back to sh." >&2
+    exec sh "$@"
+fi
