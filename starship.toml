@@ -1,29 +1,32 @@
 format = """
-[▒](#a3aed2)\
-[  ](bg:#a3aed2 fg:#090c0c)\
-[](bg:#769ff0 fg:#a3aed2)\
+[▒](#7e602c)\
+[  ](bg:#7e602c fg:#221a0f)\
+[](bg:#423523 fg:#7e602c)\
 $directory\
-[](fg:#769ff0 bg:#394260)\
+[](fg:#423523 bg:#362712)\
 $git_branch\
 $git_status\
-[ ](fg:#1d2230)\
+[ ](fg:#362712)\
 \n$character"""
 
 [directory]
-style = "fg:#e3e5e5 bg:#769ff0"
+style = "fg:#d3af86 bg:#423523"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
-style = "bg:#394260"
-format = '[[ $symbol $branch ](fg:#769ff0 bg:#394260)]($style)'
+style = "bg:#362712"
+format = '[[ $symbol $branch ](fg:#8ab1b0 bg:#362712)]($style)'
 
 [git_status]
-style = "bg:#394260"
-format = '[[($all_status$ahead_behind )](fg:#769ff0 bg:#394260)]($style)'
-ahead = '[⇡$count](fg:#cccccc bg:#338833)[](fg:#338833)'
-modified = '[!$count](fg:#cccccc bg:#883333)[](fg:#880000)'
-staged = '[+$count](fg:#cccccc bg:#333388)[](fg:#0000ff)'
+style = "bg:#362712"
+format = '[[($all_status$ahead_behind )](fg:#8ab1b0 bg:#362712)]($style)'
+ahead = '[⇡$count](fg:#221a0f bg:#889b4a)[](fg:#889b4a)'
+modified = '[!$count](fg:#221a0f bg:#dc3958)[](fg:#dc3958)'
+staged = '[+$count](fg:#221a0f bg:#8ab1b0)[](fg:#8ab1b0)'
 
+[character]
+success_symbol = "[❯](bold #889b4a)"
+error_symbol = "[❯](bold #dc3958)"
