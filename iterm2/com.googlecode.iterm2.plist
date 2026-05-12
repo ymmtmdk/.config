@@ -369,7 +369,7 @@
 		</dict>
 	</dict>
 	<key>Default Bookmark Guid</key>
-	<string>78424B72-EF52-46BA-B84C-680FC5526233</string>
+	<string>E2F3A4B5-C6D7-48E9-F0A1-B2C3D4E5F6A7</string>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
@@ -3605,7 +3605,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Monaco 12</string>
+			<string>RobotoMonoNFM-Rg 13</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
