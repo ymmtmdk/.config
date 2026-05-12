@@ -33,13 +33,18 @@ return {
 
     local groups = {
       -- Standard Highlight Groups
-      Normal = { fg = colors.fg, bg = colors.bg },
+      Normal = { fg = colors.fg, bg = "NONE" },
+      NormalFloat = { fg = colors.fg, bg = "NONE" },
+      NormalNC = { fg = colors.fg, bg = "NONE" },
       Cursor = { fg = colors.bg, bg = colors.cursor },
       Visual = { bg = colors.selection },
       CursorLine = { bg = colors.line_hl },
       StatusLine = { fg = colors.fg, bg = colors.status_bg },
-      LineNr = { fg = colors.comment },
-      CursorLineNr = { fg = colors.class },
+      LineNr = { fg = colors.comment, bg = "NONE" },
+      CursorLineNr = { fg = colors.class, bg = "NONE" },
+      SignColumn = { bg = "NONE" },
+      FoldColumn = { bg = "NONE" },
+      EndOfBuffer = { fg = colors.bg },
       Comment = { fg = colors.comment, italic = true },
       Keyword = { fg = colors.keyword },
       Function = { fg = colors.func },
