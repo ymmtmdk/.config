@@ -1,12 +1,13 @@
 #!/bin/sh
 
-if command -v fish >/dev/null 2>&1; then
-    exec fish "$@"
+if [ -x /opt/homebrew/bin/fish ]; then
+    exec /opt/homebrew/bin/fish "$@"
+elif [ -x /usr/local/bin/fish ]; then
+    exec /usr/local/bin/fish "$@"
 elif command -v zsh >/dev/null 2>&1; then
     exec zsh "$@"
 elif command -v bash >/dev/null 2>&1; then
     exec bash "$@"
 else
-    echo "Warning: fish, zsh, bash not found. Falling back to sh." >&2
     exec sh "$@"
 fi
