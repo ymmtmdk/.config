@@ -4,3 +4,8 @@ node = "latest"
 python = "latest"
 ruby = "latest"
 rust = "latest"
+
+[settings]
+
+[settings.ruby]
+compile = false

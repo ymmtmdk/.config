@@ -52,5 +52,7 @@ mise use -g python
 mise use -g node
 
 # for ruby
-brew install openssl@3 readline libyaml gmp autoconf
+# brew install openssl@3 readline libyaml gmp autoconf
+mise settings ruby.compile=false
 mise use -g ruby
+
