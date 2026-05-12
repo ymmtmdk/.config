@@ -5,7 +5,12 @@
 # Allowlist
 !.git/*
 !.gitignore
+!.github/**
 !fish/**
 !nvim/**
 !code/**
 !bin/**
+
+# Secret Separation (Ignore local-only configs)
+*.local
+.secrets
