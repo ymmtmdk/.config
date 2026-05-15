@@ -55,5 +55,30 @@ The primary source of truth for all color values is the VS Code theme file:
     - Segment backgrounds are mapped to UI colors (Sidebar/Status Bar BG).
     - Success/Error symbols use the String (Green) and Variable (Red) hex codes.
 
+## Setup on New Environment
+
+After cloning this repository, follow these steps to restore the iTerm2 environment:
+
+### 1. Link Dynamic Profile
+Run the following command to link the profile from the repo to iTerm2's search path:
+\`\`\`bash
+mkdir -p ~/Library/Application\\ Support/iTerm2/DynamicProfiles
+ln -sf ~/.config/iterm2/DynamicProfiles/KimbieDark.json ~/Library/Application\\ Support/iTerm2/DynamicProfiles/KimbieDark.json
+\`\`\`
+
+### 2. Load Global Preferences
+1. Open iTerm2.
+2. Go to **Settings (Cmd + ,) > General**.
+3. In the **Preferences** section:
+    - Check **"Load preferences from a custom folder or URL"**.
+    - Click **Browse** and select \`~/.config/iterm2/\`.
+    - Check **"Save changes to folder when iTerm2 quits"**.
+4. Restart iTerm2.
+
+### 3. Set Default Profile
+1. Go to **Settings > Profiles**.
+2. Select **"Kimbie Dark"** from the list.
+3. Click **Other Actions... > Set as Default**.
+
 ## Maintenance
 To adjust the theme, reference the hex codes in the table above and update the respective config files. For Neovim, all colors are defined in a single table at the top of the `kimbie_dark.lua` file.
