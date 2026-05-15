@@ -1,55 +1,54 @@
 # Kimbie Dark Theme Setup
 
-This document outlines the configuration and settings used to achieve a consistent **Kimbie Dark** theme across iTerm2, Neovim, Fish shell, and Starship.
+This document defines the configuration for a consistent **Kimbie Dark** environment across all terminal tools.
+
+## Source of Truth
+The primary source of truth for all color values is the VS Code theme file:
+`/Applications/Antigravity.app/Contents/Resources/app/extensions/theme-kimbie-dark/themes/kimbie-dark-color-theme.json`
 
 ## Color Palette
 
-The theme is based on the following hex codes extracted from the VS Code Kimbie Dark theme:
-
-| Element | Hex Code | Description |
-| :--- | :--- | :--- |
-| Background | `#221a0f` | Dark Brown |
-| Foreground | `#d3af86` | Light Beige |
-| Sidebar BG | `#362712` | Medium Brown |
-| Status Bar BG | `#423523` | Darker Brown |
-| Cursor | `#d3af86` | Same as Foreground |
-| Selection | `#84613d` | Bright Brown (with transparency) |
-| Line Highlight | `#5e452b` | Intermediate Brown |
-| Keyword | `#98676a` | Muted Red/Pink |
-| Variable | `#dc3958` | Bright Red |
-| Function | `#8ab1b0` | Blue-Green/Cyan |
-| Class/Type | `#f06431` | Orange |
-| String | `#889b4a` | Olive/Green |
-| Number/Const | `#f79a32` | Yellow/Orange |
-| Comment | `#a57a4c` | Light Brown |
+| Category | Element | Hex Code | Description |
+| :--- | :--- | :--- | :--- |
+| **Core** | Editor Background | `#221a0f` | Dark Brown |
+| | Editor Foreground | `#d3af86` | Light Beige |
+| **UI** | Sidebar Background | `#362712` | Medium Brown |
+| | Status Bar Background| `#423523` | Darker Brown |
+| | Menu Foreground | `#CCCCCC` | Bright Grey (used for ANSI 7/White) |
+| | Highlight Foreground | `#e3b583` | Bright Beige (used for Bold/ANSI 15) |
+| | Selection Background | `#84613d` | Bright Brown |
+| | Line Highlight | `#5e452b` | Intermediate Brown |
+| **Syntax** | Keywords | `#98676a` | Muted Red/Pink |
+| | Variables | `#dc3958` | Bright Red |
+| | Functions | `#8ab1b0` | Blue-Green/Cyan |
+| | Classes / Types | `#f06431` | Orange |
+| | Strings | `#889b4a` | Olive/Green |
+| | Numbers / Constants | `#f79a32` | Yellow/Orange |
+| | Comments | `#a57a4c` | Light Brown |
 
 ## Tool Configurations
 
-### 1. iTerm2
-A Dynamic Profile was created to automatically add the "Kimbie Dark" profile.
+### 1. iTerm2 (Dynamic Profile)
 - **File**: `~/Library/Application Support/iTerm2/DynamicProfiles/KimbieDark.json`
-- **Features**: Accurate mapping of ANSI colors to Kimbie tokens, custom selection, and cursor colors.
+- **Visibility Fixes**:
+    - **ANSI 7 (White)** is set to `#CCCCCC` to ensure "Dim" text (like headers in `gh run list`) remains visible.
+    - **Bold Color** is set to `#e3b583` to differentiate emphasized text from the background.
+    - **ANSI 0/8 (Black)** use the Line Highlight/Comment colors to avoid being invisible against the background.
 
-### 2. Neovim
-A custom Lua-based theme was implemented to ensure 100% fidelity to the requested palette and support background transparency.
+### 2. Neovim (Custom Lua)
 - **File**: `~/.config/nvim/lua/plugins/kimbie_dark.lua`
-- **Key Settings**:
-    - Custom highlight group definitions for `Normal`, `Keyword`, `Function`, etc.
-    - `bg = "NONE"` for transparency on `Normal`, `NormalFloat`, `LineNr`, etc.
-    - Uses `priority = 1000` to ensure it loads early.
+- **Implementation**: A manual highlight setup using Lua to ensure exact color fidelity and **background transparency**.
+- **Transparency**: `Normal`, `SignColumn`, `LineNr`, and other UI elements have `bg = "NONE"` to inherit the terminal's background.
 
-### 3. Fish Shell
-Colors are set as universal variables (`set -Ux`) for persistence across sessions.
-- **Plugin**: `FabioAntunes/base16-fish-shell` installed via Fisher.
-- **Manual Overrides**: Key syntax highlighting variables (`fish_color_command`, `fish_color_quote`, etc.) were manually set to the hex codes above to ensure contrast and accuracy.
+### 3. Fish Shell (Universal Variables)
+- **Mechanism**: Colors are stored as universal variables (`set -Ux`).
+- **Sync**: The `fish_color_*` variables are manually mapped to the syntax colors listed above. The `base16-fish-shell` plugin was used for initialization but removed to keep the config clean; the variables persist.
 
-### 4. Starship
-The prompt was themed to match the status bar and sidebar colors of Kimbie Dark.
+### 4. Starship (Prompt)
 - **File**: `~/.config/starship.toml`
-- **Highlights**:
-    - Directory segment matches `Status Bar BG`.
-    - Git segment matches `Sidebar BG`.
-    - Character symbols use `String` (Green) for success and `Variable` (Red) for error.
+- **Design**:
+    - Segment backgrounds are mapped to UI colors (Sidebar/Status Bar BG).
+    - Success/Error symbols use the String (Green) and Variable (Red) hex codes.
 
 ## Maintenance
-To update colors, modify the corresponding configuration files and re-source or restart the application. For Neovim, the `kimbie_dark.lua` file contains a central `colors` table for easy adjustments.
+To adjust the theme, reference the hex codes in the table above and update the respective config files. For Neovim, all colors are defined in a single table at the top of the `kimbie_dark.lua` file.
