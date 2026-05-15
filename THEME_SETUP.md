@@ -28,9 +28,14 @@ The primary source of truth for all color values is the VS Code theme file:
 
 ## Tool Configurations
 
-### 1. iTerm2 (Dynamic Profile)
-- **File**: `~/Library/Application Support/iTerm2/DynamicProfiles/KimbieDark.json`
+### 1. iTerm2 (Managed in Git)
+- **Profile File**: \`~/.config/iterm2/DynamicProfiles/KimbieDark.json\` (Symlinked to \`~/Library/Application Support/iTerm2/DynamicProfiles/\`)
+- **Global Settings**: \`~/.config/iterm2/com.googlecode.iterm2.plist\` (Converted to XML for better diffs)
+- **Git Management**: 
+    - Settings are automatically saved to the repo's \`.plist\` when iTerm2 is configured to "Load preferences from a custom folder".
+    - The Dynamic Profile JSON allows for easy color adjustments directly in the repo.
 - **Visibility Fixes**:
+
     - **ANSI 7 (White)** is set to `#CCCCCC` to ensure "Dim" text (like headers in `gh run list`) remains visible.
     - **Bold Color** is set to `#e3b583` to differentiate emphasized text from the background.
     - **ANSI 0/8 (Black)** use the Line Highlight/Comment colors to avoid being invisible against the background.
